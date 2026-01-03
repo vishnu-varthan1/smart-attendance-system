@@ -1,0 +1,1370 @@
+2025-10-10 00:11:09,577 - face_recognition.face_encoder - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:11:09,577 - face_recognition.face_detector - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:11:09,582 - __main__ - INFO - Database tables created
+2025-10-10 00:11:09,634 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.43.148:5000
+2025-10-10 00:11:09,635 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-10 00:11:09,637 - werkzeug - INFO -  * Restarting with stat
+2025-10-10 00:11:10,361 - face_recognition.face_encoder - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:11:10,361 - face_recognition.face_detector - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:11:10,363 - __main__ - INFO - Database tables created
+2025-10-10 00:11:10,419 - werkzeug - WARNING -  * Debugger is active!
+2025-10-10 00:11:10,425 - werkzeug - INFO -  * Debugger PIN: 733-551-540
+2025-10-10 00:11:21,573 - simple_camera - INFO - Camera stopped
+2025-10-10 00:11:21,573 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-10 00:11:21,659 - simple_camera - INFO - Camera stopped
+2025-10-10 00:11:21,659 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-10 00:11:45,702 - face_recognition.face_encoder - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:11:45,702 - face_recognition.face_detector - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:11:45,704 - __main__ - INFO - Database tables created
+2025-10-10 00:11:45,751 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.43.148:5000
+2025-10-10 00:11:45,752 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-10 00:11:45,753 - werkzeug - INFO -  * Restarting with stat
+2025-10-10 00:11:46,432 - face_recognition.face_encoder - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:11:46,433 - face_recognition.face_detector - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:11:46,435 - __main__ - INFO - Database tables created
+2025-10-10 00:11:46,472 - werkzeug - WARNING -  * Debugger is active!
+2025-10-10 00:11:46,474 - werkzeug - INFO -  * Debugger PIN: 733-551-540
+2025-10-10 00:11:57,146 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:57] "GET / HTTP/1.1" 200 -
+2025-10-10 00:11:58,717 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:58] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,114 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,119 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,122 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,129 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,134 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,137 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,141 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,144 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,147 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,151 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,154 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,157 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,161 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,164 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,168 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,171 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,172 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,182 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,184 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,184 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:11:59,355 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:11:59] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:12:00,511 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:00] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:00,512 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:00] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:00,703 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-10 00:12:01,039 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,040 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,044 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,046 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,048 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,052 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,054 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,093 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,095 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,099 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,101 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,106 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,111 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,114 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:01,115 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:01] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,634 - __main__ - ERROR - Error in students route: Could not build url for endpoint 'edit_student' with values ['student_id']. Did you mean 'get_student' instead?
+2025-10-10 00:12:02,635 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "GET /students HTTP/1.1" 200 -
+2025-10-10 00:12:02,678 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,679 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,680 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,680 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,681 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,682 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,688 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,695 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,697 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,699 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,704 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,706 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,710 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,713 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,718 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,720 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,725 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,726 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,729 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,733 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:02,735 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:02] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,242 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,244 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,245 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,247 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,247 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,277 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,279 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,281 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,285 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,288 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,293 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,295 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,301 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,301 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:03,303 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:03] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,071 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-10 00:12:05,104 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,106 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,110 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,113 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,113 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,121 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,122 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,133 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,137 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,143 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,144 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,153 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,158 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,166 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,170 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,176 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,184 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,190 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,194 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:12:05,201 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,205 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,210 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,652 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,654 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,656 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,658 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,661 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,686 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,691 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,695 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,697 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,704 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,705 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,706 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,708 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,714 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:05,716 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:05] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:06,323 - simple_camera - ERROR - OpenCV not available - cannot start camera
+2025-10-10 00:12:06,326 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:06] "POST /start_detection HTTP/1.1" 200 -
+2025-10-10 00:12:09,331 - simple_camera - ERROR - OpenCV not available - cannot start camera
+2025-10-10 00:12:09,332 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:09] "POST /start_detection HTTP/1.1" 200 -
+2025-10-10 00:12:13,272 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "GET /attendance HTTP/1.1" 200 -
+2025-10-10 00:12:13,307 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,309 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,310 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,310 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,313 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,316 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,319 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,323 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,328 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,331 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,334 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,342 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,345 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,353 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,354 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,357 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,365 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,369 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,369 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,370 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,374 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,902 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,903 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,905 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,907 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,908 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,933 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,938 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,942 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,947 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,947 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,950 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,952 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,954 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,961 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:13,961 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:13] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:18,101 - __main__ - ERROR - Error in reports route: Encountered unknown tag 'endif'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2025-10-10 00:12:18,139 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:18] "[35m[1mGET /reports HTTP/1.1[0m" 500 -
+2025-10-10 00:12:18,170 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:18] "GET /reports?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-10 00:12:18,171 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:18] "GET /reports?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-10 00:12:18,232 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:18] "GET /reports?__debugger__=yes&cmd=resource&f=console.png&s=ovJtrKPEWDWJObyzhpGX HTTP/1.1" 200 -
+2025-10-10 00:12:18,394 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:18] "GET /reports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-10-10 00:12:21,092 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-10 00:12:21,128 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,129 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,129 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,132 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,133 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,136 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,141 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,146 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,149 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,153 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,154 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,161 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,162 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,170 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,170 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,175 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,175 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,181 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,183 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,185 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,192 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:12:21,193 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,658 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,660 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,664 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,664 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,667 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,706 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,707 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,708 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,709 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,715 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,716 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,719 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,724 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,727 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:21,729 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:21] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,068 - __main__ - ERROR - Error in students route: Could not build url for endpoint 'edit_student' with values ['student_id']. Did you mean 'get_student' instead?
+2025-10-10 00:12:23,070 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "GET /students HTTP/1.1" 200 -
+2025-10-10 00:12:23,105 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,107 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,109 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,113 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,115 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,119 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,124 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,129 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,133 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,130 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,130 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,137 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,138 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,144 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,150 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,157 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,158 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,161 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,170 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,174 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,174 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,689 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,691 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,694 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,698 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,702 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,705 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,708 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,711 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,712 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,736 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,737 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,738 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,740 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,744 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:23,746 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:23] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,754 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "GET /register_student HTTP/1.1" 200 -
+2025-10-10 00:12:24,785 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,787 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,790 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,794 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,797 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,798 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,801 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,803 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,811 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,814 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,816 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,820 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,824 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,826 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,832 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,835 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,838 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,841 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,847 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,848 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:24,855 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:24] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,330 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,332 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,334 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,337 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,339 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,353 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,354 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,357 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,359 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,361 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,362 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,384 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,386 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,387 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:25,391 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:25] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,366 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "GET / HTTP/1.1" 200 -
+2025-10-10 00:12:29,401 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,402 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,403 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,406 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,411 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,413 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,419 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,421 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,426 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,428 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,432 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,434 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,441 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,441 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,447 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,449 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,451 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,459 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,465 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,471 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,472 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,488 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:12:29,978 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,980 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,981 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,986 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:29,988 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:29] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,019 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,022 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,026 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,028 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,032 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,034 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,040 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,040 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,047 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:30,050 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:30] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,662 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-10 00:12:38,700 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,703 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,705 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,708 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,709 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,712 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,715 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,718 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,720 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,728 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,732 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,735 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,739 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,740 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,742 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,746 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,748 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,751 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,755 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,758 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,758 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:38,764 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:38] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:12:39,298 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,300 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,301 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,304 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,304 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,318 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,323 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,325 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,328 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,333 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,334 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,337 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,354 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,359 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:39,360 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:39] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:12:59,940 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:12:59] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:13:29,943 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:13:29] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:13:59,945 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:13:59] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:14:29,940 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:14:29] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:14:59,947 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:14:59] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:15:02,618 - werkzeug - INFO -  * Detected change in 'C:\\Codes\\.venv\\Lib\\site-packages\\cv2\\load_config_py3.py', reloading
+2025-10-10 00:15:02,618 - simple_camera - INFO - Camera stopped
+2025-10-10 00:15:02,618 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-10 00:15:02,743 - werkzeug - INFO -  * Restarting with stat
+2025-10-10 00:15:03,652 - face_recognition.face_encoder - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:15:03,653 - face_recognition.face_detector - WARNING - Face recognition libraries not available - using placeholder
+2025-10-10 00:15:03,655 - __main__ - INFO - Database tables created
+2025-10-10 00:15:03,692 - werkzeug - WARNING -  * Debugger is active!
+2025-10-10 00:15:03,695 - werkzeug - INFO -  * Debugger PIN: 733-551-540
+2025-10-10 00:15:04,481 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "GET / HTTP/1.1" 200 -
+2025-10-10 00:15:04,668 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,672 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,674 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,681 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,682 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,682 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,685 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,980 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,980 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,987 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,987 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,988 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:04,989 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:04] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:05,000 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:05] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:05,000 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:05] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:05,001 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:05] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:05,007 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:05] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:05,008 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:05] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:05,008 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:05] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:05,013 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:05] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:05,015 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:05] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:05,326 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:05] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:15:07,617 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,619 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,624 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,624 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,625 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,681 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,685 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,691 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,691 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,693 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,693 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,695 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,698 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,704 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:07,706 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:07] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,819 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-10 00:15:09,865 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,867 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,867 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,867 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,868 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,868 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,873 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,888 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,889 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,897 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,897 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,901 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,902 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,909 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,912 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,915 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,918 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,925 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,928 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,928 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:09,931 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:09] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,025 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:15:10,667 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,668 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,671 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,675 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,675 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,721 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,723 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,727 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,730 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,734 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,736 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,745 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,747 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,753 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:10,754 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:10] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:15:14,713 - simple_camera - INFO - Camera started successfully
+2025-10-10 00:15:14,714 - __main__ - INFO - Camera started successfully
+2025-10-10 00:15:14,714 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:14] "POST /start_detection HTTP/1.1" 200 -
+2025-10-10 00:15:15,028 - __main__ - ERROR - Error in video feed: 'bool' object is not callable
+2025-10-10 00:15:15,028 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:15] "GET /get_video_feed?1760035515022 HTTP/1.1" 200 -
+2025-10-10 00:15:20,045 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:20] "POST /start_detection HTTP/1.1" 200 -
+2025-10-10 00:15:23,306 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:23] "POST /start_detection HTTP/1.1" 200 -
+2025-10-10 00:15:39,532 - simple_camera - INFO - Camera stopped
+2025-10-10 00:15:39,532 - __main__ - INFO - Camera stopped
+2025-10-10 00:15:39,533 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:39] "POST /stop_detection HTTP/1.1" 200 -
+2025-10-10 00:15:40,025 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:15:40] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:15:46,981 - simple_camera - INFO - Camera stopped
+2025-10-10 00:15:46,982 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-10 00:15:47,082 - simple_camera - INFO - Camera stopped
+2025-10-10 00:15:47,083 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-10 00:21:58,886 - face_recognition.face_encoder - INFO - Face encoder initialized with OpenCV
+2025-10-10 00:21:58,903 - face_recognition.face_detector - INFO - Face detector initialized with OpenCV
+2025-10-10 00:21:58,905 - __main__ - INFO - Database tables created
+2025-10-10 00:23:01,346 - face_recognition.face_encoder - INFO - Face encoder initialized with OpenCV
+2025-10-10 00:23:01,364 - face_recognition.face_detector - INFO - Face detector initialized with OpenCV
+2025-10-10 00:23:01,366 - __main__ - INFO - Database tables created
+2025-10-10 00:23:01,418 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.43.148:5000
+2025-10-10 00:23:01,419 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-10 00:23:01,420 - werkzeug - INFO -  * Restarting with stat
+2025-10-10 00:23:02,276 - face_recognition.face_encoder - INFO - Face encoder initialized with OpenCV
+2025-10-10 00:23:02,294 - face_recognition.face_detector - INFO - Face detector initialized with OpenCV
+2025-10-10 00:23:02,298 - __main__ - INFO - Database tables created
+2025-10-10 00:23:02,334 - werkzeug - WARNING -  * Debugger is active!
+2025-10-10 00:23:02,337 - werkzeug - INFO -  * Debugger PIN: 733-551-540
+2025-10-10 00:23:05,933 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:05] "GET / HTTP/1.1" 200 -
+2025-10-10 00:23:07,644 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,648 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,659 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,666 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,667 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,671 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,674 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,676 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,683 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,684 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,684 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,685 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,686 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,688 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,696 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,702 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,702 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,704 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,707 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,710 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:07,711 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:07] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:08,610 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:08] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:23:09,813 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-10 00:23:10,102 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,104 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,107 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,110 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,111 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,151 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,152 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,154 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,156 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,159 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,170 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,171 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,175 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,178 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:10,182 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:10] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,161 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-10 00:23:13,205 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,209 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,209 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,210 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,210 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,211 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,221 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,228 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,231 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,237 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,240 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,248 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,249 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,251 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,254 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,255 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,266 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,272 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,277 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,283 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,283 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,293 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:23:13,825 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,827 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,832 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,832 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,833 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,865 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,867 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,873 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,876 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,878 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,885 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,889 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,896 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,898 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:13,899 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:13] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:17,345 - simple_camera - INFO - Camera 0 started successfully
+2025-10-10 00:23:17,345 - __main__ - INFO - Camera started successfully
+2025-10-10 00:23:17,346 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:17] "POST /start_detection HTTP/1.1" 200 -
+2025-10-10 00:23:17,653 - __main__ - ERROR - Error in video feed: 'bool' object is not callable
+2025-10-10 00:23:17,653 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:17] "GET /get_video_feed?1760035997648 HTTP/1.1" 200 -
+2025-10-10 00:23:33,650 - __main__ - ERROR - Error in reports route: Encountered unknown tag 'endif'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2025-10-10 00:23:33,688 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:33] "[35m[1mGET /reports HTTP/1.1[0m" 500 -
+2025-10-10 00:23:33,722 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:33] "[36mGET /reports?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:23:33,725 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:33] "[36mGET /reports?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-10 00:23:33,773 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:33] "GET /reports?__debugger__=yes&cmd=resource&f=console.png&s=t1n58z8FNvTVWM9RVXsN HTTP/1.1" 200 -
+2025-10-10 00:23:33,945 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:33] "[36mGET /reports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-10 00:23:34,074 - simple_camera - INFO - Camera stopped
+2025-10-10 00:23:34,074 - __main__ - INFO - Camera stopped
+2025-10-10 00:23:34,075 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:23:34] "POST /stop_detection HTTP/1.1" 200 -
+2025-10-10 00:24:27,589 - simple_camera - INFO - Camera stopped
+2025-10-10 00:24:27,589 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-10 00:24:27,698 - simple_camera - INFO - Camera stopped
+2025-10-10 00:24:27,698 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-10 00:29:56,508 - face_recognition.face_encoder - INFO - Face encoder initialized with OpenCV
+2025-10-10 00:29:56,525 - face_recognition.face_detector - INFO - Face detector initialized with OpenCV
+2025-10-10 00:29:56,528 - __main__ - INFO - Database tables created
+2025-10-10 00:29:56,574 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.43.148:5000
+2025-10-10 00:29:56,575 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-10 00:29:56,576 - werkzeug - INFO -  * Restarting with stat
+2025-10-10 00:29:57,202 - face_recognition.face_encoder - INFO - Face encoder initialized with OpenCV
+2025-10-10 00:29:57,219 - face_recognition.face_detector - INFO - Face detector initialized with OpenCV
+2025-10-10 00:29:57,221 - __main__ - INFO - Database tables created
+2025-10-10 00:29:57,256 - werkzeug - WARNING -  * Debugger is active!
+2025-10-10 00:29:57,258 - werkzeug - INFO -  * Debugger PIN: 733-551-540
+2025-10-10 00:30:00,156 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "GET / HTTP/1.1" 200 -
+2025-10-10 00:30:00,346 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,349 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,353 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,355 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,359 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,362 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,364 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,520 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,524 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,525 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,529 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,532 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,534 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,535 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,541 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,543 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,547 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,549 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,550 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,554 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,554 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:00,757 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:00] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:30:02,198 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,202 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,205 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,205 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,206 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,209 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,257 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,258 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,261 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,264 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,265 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,269 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,271 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,275 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:02,277 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:02] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,568 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-10 00:30:20,609 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,609 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,609 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,610 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,610 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,611 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,617 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,621 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,624 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,626 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,634 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,635 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,641 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,642 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,647 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,648 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,651 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,656 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,659 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,665 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,666 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:20,714 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:20] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:30:21,158 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,161 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,162 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,163 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,165 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,191 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,195 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,197 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,200 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,206 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,208 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,207 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,214 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,217 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:21,225 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:21] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:30:25,197 - simple_camera - INFO - Camera 0 started successfully
+2025-10-10 00:30:25,198 - __main__ - INFO - Camera started successfully
+2025-10-10 00:30:25,199 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:25] "POST /start_detection HTTP/1.1" 200 -
+2025-10-10 00:30:25,517 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:25] "GET /get_video_feed?1760036425507 HTTP/1.1" 200 -
+2025-10-10 00:30:30,134 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:30:30,135 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:30] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:30:33,327 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:30:33,328 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:33] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:30:36,664 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:30:36,666 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:36] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:30:39,804 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:30:39,805 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:39] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:30:44,052 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:30:44,054 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:44] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:30:46,186 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:30:46,187 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:46] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:30:50,703 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:30:50] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:31:17,881 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:31:17,883 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:17] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:31:20,703 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:20] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:31:24,314 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:31:24,315 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:24] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:31:35,014 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:31:35,015 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:35] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:31:39,804 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:39] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-10 00:31:39,847 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:39] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:39,850 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:39] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:39,852 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:39] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:39,854 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:39,858 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:39] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:39,863 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:39] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:39,863 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:39] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,091 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,093 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,097 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,103 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,104 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,110 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,112 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,120 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,127 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,132 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,132 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,138 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,145 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,145 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,148 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,158 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,159 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,162 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,167 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,170 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,172 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,178 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,182 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,217 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,219 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,251 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:31:40,253 - simple_camera - INFO - Camera stopped
+2025-10-10 00:31:40,256 - __main__ - INFO - Camera stopped
+2025-10-10 00:31:40,257 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "POST /stop_detection HTTP/1.1" 200 -
+2025-10-10 00:31:40,879 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,882 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,888 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,892 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,893 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,912 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,917 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,918 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,925 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,927 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,928 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,931 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,936 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,942 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:40,942 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:40] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:44,055 - simple_camera - INFO - Camera 0 started successfully
+2025-10-10 00:31:44,056 - __main__ - INFO - Camera started successfully
+2025-10-10 00:31:44,056 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:44] "POST /start_detection HTTP/1.1" 200 -
+2025-10-10 00:31:44,377 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:44] "GET /get_video_feed?1760036504364 HTTP/1.1" 200 -
+2025-10-10 00:31:46,567 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:31:46,568 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:46] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:31:51,223 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "GET /attendance HTTP/1.1" 200 -
+2025-10-10 00:31:51,259 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,260 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,262 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,266 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,268 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,269 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,275 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,278 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,282 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,281 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,286 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,294 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,298 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,303 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,303 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,310 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,312 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,318 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,324 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,328 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,330 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,591 - simple_camera - INFO - Camera stopped
+2025-10-10 00:31:51,591 - __main__ - INFO - Camera stopped
+2025-10-10 00:31:51,592 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "POST /stop_detection HTTP/1.1" 200 -
+2025-10-10 00:31:51,906 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,909 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,913 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,915 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,917 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,918 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,929 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,941 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,943 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,945 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,947 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,948 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,950 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,967 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:31:51,969 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:31:51] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,868 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "GET /reports HTTP/1.1" 200 -
+2025-10-10 00:32:07,902 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,908 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,909 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,911 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,913 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,914 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,926 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,926 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,927 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,938 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,939 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,946 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,947 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,956 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,959 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,963 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,974 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,977 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,981 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,989 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:07,991 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:07] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,447 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,449 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,450 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,454 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,456 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,461 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,466 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,472 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,474 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,477 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,482 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,488 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,492 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,495 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:09,498 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:09] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,276 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-10 00:32:17,355 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,359 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,363 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,365 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,368 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,378 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,380 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,614 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,616 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,618 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,619 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,621 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,625 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,630 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,632 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,636 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,638 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,642 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,645 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,648 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,649 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:17,653 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:17] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:32:18,362 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,369 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,375 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,377 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,378 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,395 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,399 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,401 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,404 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,407 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,433 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,436 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,444 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,445 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:18,448 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:18] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,220 - __main__ - ERROR - Error in students route: Could not build url for endpoint 'edit_student' with values ['student_id']. Did you mean 'get_student' instead?
+2025-10-10 00:32:21,223 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "GET /students HTTP/1.1" 200 -
+2025-10-10 00:32:21,261 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,264 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,265 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,269 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,271 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,272 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,281 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,281 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,288 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,291 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,297 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,302 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,312 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,312 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,314 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,322 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,325 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,328 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,329 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,330 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,336 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,875 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,876 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,877 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,878 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,879 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,905 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,914 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,916 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,924 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,926 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,927 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,935 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,937 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,939 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:21,941 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:21] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,855 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "GET / HTTP/1.1" 200 -
+2025-10-10 00:32:22,890 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,891 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,892 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,895 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,899 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,899 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,901 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,908 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,918 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,924 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,925 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,926 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,936 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,944 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,950 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,951 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,952 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,954 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,956 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,958 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:22,966 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:32:22,968 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:22] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,453 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,454 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,456 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,459 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,461 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,490 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,492 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,495 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,501 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,502 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,503 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,510 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,512 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,516 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:23,518 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:32:23] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:32:34,552 - simple_camera - INFO - Camera stopped
+2025-10-10 00:32:34,553 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-10 00:32:34,652 - simple_camera - INFO - Camera stopped
+2025-10-10 00:32:34,653 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-10 00:43:47,613 - face_recognition.face_encoder - INFO - Face encoder initialized with OpenCV
+2025-10-10 00:43:47,630 - face_recognition.face_detector - INFO - Face detector initialized with OpenCV
+2025-10-10 00:43:47,633 - __main__ - INFO - Database tables created
+2025-10-10 00:43:47,685 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.43.148:5000
+2025-10-10 00:43:47,685 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-10 00:43:47,688 - werkzeug - INFO -  * Restarting with stat
+2025-10-10 00:43:48,357 - face_recognition.face_encoder - INFO - Face encoder initialized with OpenCV
+2025-10-10 00:43:48,373 - face_recognition.face_detector - INFO - Face detector initialized with OpenCV
+2025-10-10 00:43:48,377 - __main__ - INFO - Database tables created
+2025-10-10 00:43:48,410 - werkzeug - WARNING -  * Debugger is active!
+2025-10-10 00:43:48,412 - werkzeug - INFO -  * Debugger PIN: 733-551-540
+2025-10-10 00:43:51,011 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:51] "GET / HTTP/1.1" 200 -
+2025-10-10 00:43:52,675 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,676 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "GET /static/css/fixed-layout.css HTTP/1.1" 200 -
+2025-10-10 00:43:52,680 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,683 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,685 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,692 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,692 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,693 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,808 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,811 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,815 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,817 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,820 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,824 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,824 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,826 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,828 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,832 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,836 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,839 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,842 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:52,844 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:52] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:53,006 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:53] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:43:54,345 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-10 00:43:54,709 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,709 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,712 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,714 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,717 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,771 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,778 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,784 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,785 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,787 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,791 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,794 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,796 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,799 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:43:54,804 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:43:54] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,031 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "GET /attendance HTTP/1.1" 200 -
+2025-10-10 00:44:00,075 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/fixed-layout.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,075 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,076 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,076 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,077 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,077 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,084 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,093 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,094 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,096 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,105 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,105 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,109 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,114 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,123 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,128 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,133 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,134 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,140 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,142 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,146 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,152 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,677 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,677 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,681 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,682 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,684 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,724 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,727 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,731 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,732 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,733 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,741 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,742 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,749 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,752 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:00,755 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:00] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,053 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "GET / HTTP/1.1" 200 -
+2025-10-10 00:44:05,087 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,096 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,096 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,097 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,103 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,103 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/fixed-layout.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,110 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,113 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,116 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,121 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,124 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,130 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,136 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,138 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,138 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,144 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,148 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,153 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,155 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,162 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,164 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,170 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-10 00:44:05,173 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,643 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,647 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,649 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,651 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,653 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,680 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,681 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,687 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,688 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,688 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,696 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,703 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,714 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,717 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:05,722 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:05] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,127 - __main__ - ERROR - Error in students route: Could not build url for endpoint 'edit_student' with values ['student_id']. Did you mean 'get_student' instead?
+2025-10-10 00:44:06,129 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "GET /students HTTP/1.1" 200 -
+2025-10-10 00:44:06,165 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,166 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,168 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,173 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,175 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/fixed-layout.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,177 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,182 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,184 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,190 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,192 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,196 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,199 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,200 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,204 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,210 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,212 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,217 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,218 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,221 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,224 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,227 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,230 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,731 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,731 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,733 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,739 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,739 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,748 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,750 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,752 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,755 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,756 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,773 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,776 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,779 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,780 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:06,783 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:06] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,460 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-10 00:44:09,495 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,497 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,499 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,505 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,505 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/fixed-layout.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,510 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,510 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,512 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,523 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,525 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,527 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,534 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,535 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,538 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,539 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,544 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,548 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,553 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,555 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,559 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,562 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-10 00:44:09,567 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:09,571 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:09] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,106 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,111 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,113 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,116 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,116 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,122 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,130 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,140 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,140 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,144 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,154 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,154 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,154 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,156 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:10,157 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:10] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-10 00:44:16,861 - simple_camera - INFO - Camera 0 started successfully
+2025-10-10 00:44:16,861 - __main__ - INFO - Camera started successfully
+2025-10-10 00:44:16,862 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:16] "POST /start_detection HTTP/1.1" 200 -
+2025-10-10 00:44:17,184 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:17] "GET /get_video_feed?1760037257170 HTTP/1.1" 200 -
+2025-10-10 00:44:18,463 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-10 00:44:18,464 - werkzeug - INFO - 127.0.0.1 - - [10/Oct/2025 00:44:18] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-10 00:44:25,505 - simple_camera - INFO - Camera stopped
+2025-10-20 09:51:09,964 - face_recognition.face_encoder - INFO - Face encoder initialized with OpenCV
+2025-10-20 09:51:09,981 - face_recognition.face_detector - INFO - Face detector initialized with OpenCV
+2025-10-20 09:51:09,985 - __main__ - INFO - Database tables created
+2025-10-20 09:51:10,105 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.50.43.148:5000
+2025-10-20 09:51:10,105 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-20 09:51:10,107 - werkzeug - INFO -  * Restarting with stat
+2025-10-20 09:51:10,771 - face_recognition.face_encoder - INFO - Face encoder initialized with OpenCV
+2025-10-20 09:51:10,788 - face_recognition.face_detector - INFO - Face detector initialized with OpenCV
+2025-10-20 09:51:10,790 - __main__ - INFO - Database tables created
+2025-10-20 09:51:10,826 - werkzeug - WARNING -  * Debugger is active!
+2025-10-20 09:51:10,829 - werkzeug - INFO -  * Debugger PIN: 733-551-540
+2025-10-20 09:51:19,607 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "GET / HTTP/1.1" 200 -
+2025-10-20 09:51:19,769 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "GET /static/css/fixed-layout.css HTTP/1.1" 200 -
+2025-10-20 09:51:19,788 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,788 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,789 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,789 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,798 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,806 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,816 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,965 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,970 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,972 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,973 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,976 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,979 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,980 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:19,984 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:19] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:20,024 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:20] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:20,057 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:20] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:20,058 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:20] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:20,059 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:20] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:20,060 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:20] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:20,060 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:20] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:20,200 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:20] "GET /api/attendance_summary HTTP/1.1" 200 -
+2025-10-20 09:51:21,474 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-20 09:51:21,794 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,795 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,796 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,796 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,798 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,825 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,830 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,837 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,838 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,838 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,840 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,843 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,847 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,851 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:21,854 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:21] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,621 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "GET /mark_attendance HTTP/1.1" 200 -
+2025-10-20 09:51:25,655 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,655 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,656 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,656 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,661 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/fixed-layout.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,664 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,666 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,668 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,673 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,679 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,680 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,682 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,683 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,687 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,692 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,695 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,701 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,705 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,707 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,709 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,712 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,721 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:25,757 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:25] "GET /api/today_attendance HTTP/1.1" 200 -
+2025-10-20 09:51:26,188 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,191 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,191 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,194 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,196 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,209 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,227 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,230 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,235 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,235 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,237 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,241 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,241 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,247 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:26,248 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:26] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:30,514 - simple_camera - INFO - Camera 0 started successfully
+2025-10-20 09:51:30,515 - __main__ - INFO - Camera started successfully
+2025-10-20 09:51:30,516 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:30] "POST /start_detection HTTP/1.1" 200 -
+2025-10-20 09:51:30,839 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:30] "GET /get_video_feed?1760934090820 HTTP/1.1" 200 -
+2025-10-20 09:51:33,388 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-20 09:51:33,388 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:33] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-20 09:51:34,981 - __main__ - ERROR - Error starting face recognition: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-10-20 09:51:34,982 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:34] "POST /start_face_recognition HTTP/1.1" 200 -
+2025-10-20 09:51:40,510 - simple_camera - INFO - Camera stopped
+2025-10-20 09:51:40,511 - __main__ - INFO - Camera stopped
+2025-10-20 09:51:40,511 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:40] "POST /stop_detection HTTP/1.1" 200 -
+2025-10-20 09:51:43,097 - __main__ - ERROR - Error in students route: Could not build url for endpoint 'edit_student' with values ['student_id']. Did you mean 'get_student' instead?
+2025-10-20 09:51:43,099 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "GET /students HTTP/1.1" 200 -
+2025-10-20 09:51:43,130 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,131 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,133 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,133 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,139 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/fixed-layout.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,139 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,141 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,143 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,156 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,160 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,163 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,165 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,168 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,169 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,173 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,178 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,181 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,184 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,188 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,191 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,202 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,206 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,702 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,703 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,709 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,710 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,712 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,717 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,718 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,724 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,726 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,731 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,732 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,734 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,736 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,743 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:43,745 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:43] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,191 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "GET /attendance HTTP/1.1" 200 -
+2025-10-20 09:51:46,217 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/performance-optimizations.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,218 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/minified-bundle.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,222 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,223 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/cross-browser-fixes.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,225 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/fixed-layout.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,227 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/performance-monitor.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,230 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/browser-compatibility.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,231 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/asset-loader.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,236 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,242 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,244 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,248 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,252 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,255 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-design-system.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,257 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-utilities.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,258 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-navigation.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,261 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-attendance.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,267 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,267 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,271 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,278 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,280 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,773 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,774 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,776 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,780 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,780 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,805 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-forms.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,808 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/enhanced-toast.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,809 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/loading-states.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,813 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/mobile-responsive.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,814 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/css/accessibility-enhancements.css HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,819 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/loading-states.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,820 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/enhanced-toast.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,822 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/enhanced-forms.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,829 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/mobile-interactions.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:46,829 - werkzeug - INFO - 127.0.0.1 - - [20/Oct/2025 09:51:46] "[36mGET /static/js/accessibility-enhancements.js HTTP/1.1[0m" 304 -
+2025-10-20 09:51:57,072 - simple_camera - INFO - Camera stopped
+2025-10-20 09:51:57,072 - face_recognition.face_detector - INFO - Face detection stopped
+2025-10-20 09:51:57,177 - simple_camera - INFO - Camera stopped
+2025-10-20 09:51:57,178 - face_recognition.face_detector - INFO - Face detection stopped

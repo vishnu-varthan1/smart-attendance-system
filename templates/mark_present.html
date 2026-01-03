@@ -13,7 +13,7 @@
                 <a href="{{ url_for('attendance') }}" class="btn btn-secondary">
                     <i class="fas fa-arrow-left me-1"></i>Back to Attendance
                 </a>
-                <a href="{{ url_for('mark_absent') }}" class="btn btn-warning">
+                <a href="{{ url_for('mark_absent') }}" class="btn btn-enhanced btn-gradient-warning">
                     <i class="fas fa-user-times me-1"></i>Mark Absent
                 </a>
             </div>
@@ -33,19 +33,23 @@
                 <form method="POST" id="markPresentForm">
                     <div class="row mb-4">
                         <div class="col-md-3">
-                            <label for="date" class="form-label">Date <span class="text-danger">*</span></label>
-                            <input type="date" class="form-control" id="date" name="date" 
-                                   value="{{ date.today().isoformat() }}" required>
+                            <div class="form-floating-glass">
+                                <input type="date" class="form-control-glass" id="date" name="date" 
+                                       value="{{ date.today().isoformat() }}" required placeholder="Date">
+                                <label for="date">Date <span class="text-danger">*</span></label>
+                            </div>
                         </div>
                         <div class="col-md-3">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="text" class="form-control" id="subject" name="subject">
+                            <div class="form-floating-glass">
+                                <input type="text" class="form-control-glass" id="subject" name="subject" placeholder="Subject">
+                                <label for="subject">Subject</label>
+                            </div>
                         </div>
                         <div class="col-md-3">
-                            <label for="class_period" class="form-label">Class Period</label>
-                            <select class="form-select" id="class_period" name="class_period">
-                                <option value="" disabled selected style="display: none;">Choose Period</option>
-                                <option value="1st Period">1st Period</option>
+                            <div class="form-floating-glass">
+                                <select class="form-select-glass" id="class_period" name="class_period" placeholder="Class Period">
+                                    <option value="" disabled selected style="display: none;">Choose Period</option>
+                                    <option value="1st Period">1st Period</option>
                                 <option value="2nd Period">2nd Period</option>
                                 <option value="3rd Period">3rd Period</option>
                                 <option value="4th Period">4th Period</option>
@@ -53,19 +57,25 @@
                                 <option value="6th Period">6th Period</option>
                                 <option value="7th Period">7th Period</option>
                                 <option value="8th Period">8th Period</option>
-                            </select>
+                                </select>
+                                <label for="class_period">Class Period</label>
+                            </div>
                         </div>
                         <div class="col-md-3">
-                            <label for="teacher_name" class="form-label">Teacher Name</label>
-                            <input type="text" class="form-control" id="teacher_name" name="teacher_name">
+                            <div class="form-floating-glass">
+                                <input type="text" class="form-control-glass" id="teacher_name" name="teacher_name" placeholder="Teacher Name">
+                                <label for="teacher_name">Teacher Name</label>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="row mb-4">
                         <div class="col-12">
-                            <label for="remarks" class="form-label">Remarks</label>
-                            <textarea class="form-control" id="remarks" name="remarks" rows="2" 
-                                      placeholder="Optional remarks or notes"></textarea>
+                            <div class="form-floating-glass">
+                                <textarea class="form-control-glass" id="remarks" name="remarks" rows="2" 
+                                          placeholder="Optional remarks or notes"></textarea>
+                                <label for="remarks">Remarks</label>
+                            </div>
                         </div>
                     </div>
 
@@ -109,7 +119,7 @@
                                             </select>
                                         </div>
                                         <div class="col-md-2">
-                                            <input type="text" class="form-control" id="searchStudent" 
+                                            <input type="text" class="form-control-glass" id="searchStudent" 
                                                    placeholder="Search name..." onkeyup="filterStudents()">
                                         </div>
                                     </div>
@@ -192,7 +202,7 @@
                                 <a href="{{ url_for('attendance') }}" class="btn btn-secondary">
                                     <i class="fas fa-times me-1"></i>Cancel
                                 </a>
-                                <button type="submit" class="btn btn-success" id="submitBtn">
+                                <button type="submit" class="btn btn-enhanced btn-gradient-success" id="submitBtn">
                                     <i class="fas fa-check me-1"></i>Mark Selected as Present
                                 </button>
                             </div>

@@ -1,1 +1,1 @@
-# Face recognition module
+# Face recognition module placeholder

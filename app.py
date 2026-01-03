@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for, flash, send_file
 from flask_sqlalchemy import SQLAlchemy
-import cv2
 import os
 import json
 import base64
@@ -8,6 +7,15 @@ from datetime import datetime, date, timedelta
 import threading
 import time
 import logging
+
+# Try to import cv2 with error handling
+try:
+    import cv2
+    CV2_AVAILABLE = True
+    print("✅ OpenCV imported successfully")
+except ImportError as e:
+    print(f"⚠️  OpenCV not available: {e}")
+    CV2_AVAILABLE = False
 
 # Import custom modules
 from config import Config
@@ -19,9 +27,9 @@ try:
     from face_recognition.face_encoder import FaceEncoder
     from face_recognition.face_detector import FaceDetector
     FACE_RECOGNITION_AVAILABLE = True
+    print("✅ Face recognition modules imported successfully")
 except ImportError as e:
-    logger = logging.getLogger(__name__)
-    logger.warning(f"Face recognition not available: {str(e)}")
+    print(f"⚠️  Face recognition not available: {str(e)}")
     FaceEncoder = None
     FaceDetector = None
     FACE_RECOGNITION_AVAILABLE = False
@@ -165,9 +173,10 @@ def register_student():
         if FACE_RECOGNITION_AVAILABLE and face_encoder:
             face_encoding = face_encoder.encode_face_from_image(image_path)
             if face_encoding is None:
-                flash('No face detected in the image. Please upload a clear photo.', 'error')
-                os.remove(image_path)  # Remove uploaded file
-                return render_template('register_student.html', data=data)
+                flash('No face detected in the image. Please upload a clear photo with a visible face.', 'warning')
+                # Don't remove the image, just proceed without face encoding
+            else:
+                flash('Face encoding created successfully!', 'success')
         
         # Create new student
         student = Student(
@@ -291,7 +300,7 @@ def start_face_recognition():
                 })
         
         if not students_data:
-            return jsonify({'success': False, 'message': 'No students with face encodings found. Please register students first.'})
+            return jsonify({'success': False, 'message': 'No students with face encodings found. Please register students with photos first.'})
         
         # Load known faces into detector
         face_detector.load_known_faces(students_data)
@@ -357,7 +366,7 @@ def get_video_feed():
                     frame = face_detector.get_current_frame_with_annotations()
                 
                 # Fallback to simple camera
-                if frame is None and detection_active and simple_camera and simple_camera.is_running():
+                if frame is None and detection_active and simple_camera and simple_camera.is_camera_running():
                     frame = simple_camera.get_frame_with_overlay()
                 
                 if frame is not None:

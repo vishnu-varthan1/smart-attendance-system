@@ -3,87 +3,112 @@
 {% block title %}Students - Smart Attendance System{% endblock %}
 
 {% block content %}
-<div class="row">
+<div class="row fade-in-up">
     <div class="col-12">
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1>
-                <i class="fas fa-users me-2"></i>Students
+            <h1 class="text-gradient-primary">
+                <i class="fas fa-users me-2 icon-gradient-primary"></i>Students
             </h1>
-            <a href="{{ url_for('register_student') }}" class="btn btn-primary">
+            <a href="{{ url_for('register_student') }}" class="btn btn-gradient-primary hover-lift">
                 <i class="fas fa-user-plus me-1"></i>Register New Student
             </a>
         </div>
     </div>
 </div>
 
-<!-- Students List -->
-<div class="row">
+<!-- Enhanced Filters Section -->
+<div class="row fade-in-up stagger-1">
     <div class="col-12">
-        <!-- Filters -->
-        <div class="card mb-3">
-            <div class="card-header">
-                <h5 class="mb-0">
-                    <i class="fas fa-filter me-2"></i>Filters
+        <!-- Modern Filter Card -->
+        <div class="card-glass mb-4">
+            <div class="card-header bg-transparent border-0 pb-0">
+                <h5 class="mb-0 text-gradient-primary">
+                    <i class="fas fa-filter me-2 icon-gradient-primary"></i>Filters & Search
                 </h5>
             </div>
             <div class="card-body">
-                <form method="GET" class="row g-3">
+                <!-- Real-time Search Bar -->
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="position-relative">
+                            <input type="text" class="form-control form-control-glass ps-5" 
+                                   id="realTimeSearch" 
+                                   placeholder="Search students by name, ID, email, or department..."
+                                   autocomplete="off">
+                            <i class="fas fa-search position-absolute top-50 start-0 translate-middle-y ms-3 text-muted"></i>
+                            <div class="position-absolute top-50 end-0 translate-middle-y me-3">
+                                <span class="badge badge-glass" id="searchResultCount">{{ students|length }} students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Advanced Filters -->
+                <form method="GET" class="row g-3" id="filterForm">
                     <div class="col-md-3">
-                        <label for="department" class="form-label">Department</label>
-                        <select class="form-select" id="department" name="department">
-                            <option value="">All Departments</option>
-                            {% for dept in departments %}
-                                <option value="{{ dept }}" {{ 'selected' if dept == current_department else '' }}>
-                                    {{ dept }}
-                                </option>
-                            {% endfor %}
-                        </select>
+                        <div class="form-floating-glass">
+                            <select class="form-select-glass" id="department" name="department">
+                                <option value="">All Departments</option>
+                                {% for dept in departments %}
+                                    <option value="{{ dept }}" {{ 'selected' if dept == current_department else '' }}>
+                                        {{ dept }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                            <label for="department">Department</label>
+                        </div>
                     </div>
                     <div class="col-md-2">
-                        <label for="course" class="form-label">Course</label>
-                        <select class="form-select" id="course" name="course">
-                            <option value="">All Courses</option>
-                            {% for course in courses %}
-                                <option value="{{ course }}" {{ 'selected' if course == current_course else '' }}>
-                                    {{ course }}
-                                </option>
-                            {% endfor %}
-                        </select>
+                        <div class="form-floating-glass">
+                            <select class="form-select-glass" id="course" name="course">
+                                <option value="">All Courses</option>
+                                {% for course in courses %}
+                                    <option value="{{ course }}" {{ 'selected' if course == current_course else '' }}>
+                                        {{ course }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                            <label for="course">Course</label>
+                        </div>
                     </div>
                     <div class="col-md-2">
-                        <label for="year" class="form-label">Year</label>
-                        <select class="form-select" id="year" name="year">
-                            <option value="">All Years</option>
-                            {% for yr in years %}
-                                <option value="{{ yr }}" {{ 'selected' if yr == current_year else '' }}>
-                                    {{ yr }}
-                                </option>
-                            {% endfor %}
-                        </select>
+                        <div class="form-floating-glass">
+                            <select class="form-select-glass" id="year" name="year">
+                                <option value="">All Years</option>
+                                {% for yr in years %}
+                                    <option value="{{ yr }}" {{ 'selected' if yr == current_year else '' }}>
+                                        {{ yr }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                            <label for="year">Year</label>
+                        </div>
                     </div>
                     <div class="col-md-2">
-                        <label for="section" class="form-label">Section</label>
-                        <select class="form-select" id="section" name="section">
-                            <option value="">All Sections</option>
-                            {% for sec in sections %}
-                                <option value="{{ sec }}" {{ 'selected' if sec == current_section else '' }}>
-                                    {{ sec }}
-                                </option>
-                            {% endfor %}
-                        </select>
+                        <div class="form-floating-glass">
+                            <select class="form-select-glass" id="section" name="section">
+                                <option value="">All Sections</option>
+                                {% for sec in sections %}
+                                    <option value="{{ sec }}" {{ 'selected' if sec == current_section else '' }}>
+                                        {{ sec }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                            <label for="section">Section</label>
+                        </div>
                     </div>
-                    <div class="col-md-3 d-flex align-items-end">
-                        <div class="form-check me-3">
+                    <div class="col-md-3 d-flex align-items-center">
+                        <div class="form-check-enhanced me-3">
                             <input class="form-check-input" type="checkbox" id="show_inactive" name="show_inactive" 
                                    value="true" {{ 'checked' if show_inactive else '' }}>
                             <label class="form-check-label" for="show_inactive">
                                 Show Inactive Students
                             </label>
                         </div>
-                        <button type="submit" class="btn btn-primary me-2">
+                        <button type="submit" class="btn btn-gradient-primary me-2 hover-lift">
                             <i class="fas fa-search me-1"></i>Filter
                         </button>
-                        <a href="{{ url_for('students') }}" class="btn btn-outline-secondary">
+                        <a href="{{ url_for('students') }}" class="btn btn-glass hover-lift">
                             <i class="fas fa-times me-1"></i>Clear
                         </a>
                     </div>
@@ -91,133 +116,299 @@
             </div>
         </div>
         
-        <div class="card">
-            <div class="card-header d-flex justify-content-between align-items-center">
-                <h5 class="mb-0">
-                    Students ({{ students|length }})
+        <!-- Modern Students Grid -->
+        <div class="card-glass fade-in-up stagger-2">
+            <div class="card-header bg-transparent border-0 d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 text-gradient-primary">
+                    <span id="studentsTitle">Students ({{ students|length }})</span>
                     {% if show_inactive %}
-                        <span class="badge bg-secondary ms-2">Including Inactive</span>
+                        <span class="badge badge-gradient-warning ms-2">Including Inactive</span>
                     {% endif %}
                 </h5>
-                <div class="input-group" style="width: 300px;">
-                    <input type="text" class="form-control" id="searchInput" placeholder="Search students...">
-                    <span class="input-group-text">
-                        <i class="fas fa-search"></i>
-                    </span>
+                <div class="d-flex align-items-center gap-2">
+                    <!-- View Toggle Buttons -->
+                    <div class="btn-group" role="group" aria-label="View toggle">
+                        <button type="button" class="btn btn-glass active" id="gridViewBtn" title="Grid View">
+                            <i class="fas fa-th"></i>
+                        </button>
+                        <button type="button" class="btn btn-glass" id="listViewBtn" title="List View">
+                            <i class="fas fa-list"></i>
+                        </button>
+                    </div>
+                    <!-- Sort Options -->
+                    <select class="form-select-glass" id="sortOptions" style="width: auto;">
+                        <option value="name">Sort by Name</option>
+                        <option value="student_id">Sort by ID</option>
+                        <option value="department">Sort by Department</option>
+                        <option value="year">Sort by Year</option>
+                        <option value="created_at">Sort by Registration Date</option>
+                    </select>
                 </div>
             </div>
             <div class="card-body">
                 {% if students %}
-                    <div class="table-responsive">
-                        <table class="table table-hover" id="studentsTable">
-                            <thead>
-                                <tr>
-                                    <th>Photo</th>
-                                    <th>Student ID</th>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Department</th>
-                                    <th>Course</th>
-                                    <th>Year</th>
-                                    <th>Section</th>
-                                    <th>Status</th>
-                                    <th>Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {% for student in students %}
-                                <tr>
-                                    <td>
+                    <!-- Grid View (Default) -->
+                    <div id="gridView" class="row g-4">
+                        {% for student in students %}
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 student-card-container fade-in-up stagger-{{ loop.index % 6 + 1 }}" 
+                             data-student-name="{{ student.name|lower }}" 
+                             data-student-id="{{ student.student_id|lower }}" 
+                             data-student-email="{{ student.email|lower }}" 
+                             data-student-department="{{ (student.department or '')|lower }}"
+                             data-student-course="{{ (student.course or '')|lower }}"
+                             data-student-year="{{ student.year or '' }}"
+                             data-student-section="{{ (student.section or '')|lower }}"
+                             data-student-status="{{ 'active' if student.is_active else 'inactive' }}">
+                            <div class="card-glass hover-lift student-card h-100 swipeable touch-feedback" 
+                                 data-swipe-actions='{"left": {"icon": "edit", "event": "editStudent", "url": "{{ url_for('edit_student', student_id=student.id) }}"}, "right": {"icon": "trash", "event": "deleteStudent", "callback": "confirmDeleteStudent"}}'
+                                 data-student-id="{{ student.id }}"
+                                 data-student-name="{{ student.name }}">
+                                <div class="card-body text-center position-relative">
+                                    <!-- Status Badge -->
+                                    <div class="position-absolute top-0 end-0 m-2">
+                                        {% if student.is_active %}
+                                            <span class="badge badge-gradient-success pulse-animation">Active</span>
+                                        {% else %}
+                                            <span class="badge badge-glass">Inactive</span>
+                                        {% endif %}
+                                    </div>
+                                    
+                                    <!-- Student Photo -->
+                                    <div class="student-photo-container mb-3">
                                         {% if student.image_path %}
                                             <img src="/{{ student.image_path }}" 
                                                  alt="{{ student.name }}" 
-                                                 class="rounded-circle" 
-                                                 style="width: 40px; height: 40px; object-fit: cover;"
+                                                 class="student-photo rounded-circle hover-scale-sm" 
                                                  onerror="this.src='/static/images/default-avatar.svg'">
                                         {% else %}
-                                            <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center" 
-                                                 style="width: 40px; height: 40px;">
-                                                <i class="fas fa-user text-white"></i>
+                                            <div class="student-photo-placeholder rounded-circle bg-primary-gradient d-flex align-items-center justify-content-center hover-scale-sm">
+                                                <i class="fas fa-user fa-2x text-white"></i>
                                             </div>
                                         {% endif %}
-                                    </td>
-                                    <td>
-                                        <strong>{{ student.student_id }}</strong>
-                                    </td>
-                                    <td>{{ student.name }}</td>
-                                    <td>
-                                        <a href="mailto:{{ student.email }}">{{ student.email }}</a>
-                                    </td>
-                                    <td>
-                                        <span class="badge bg-primary">{{ student.department or 'N/A' }}</span>
-                                    </td>
-                                    <td>
-                                        <span class="badge bg-info">{{ student.course or 'N/A' }}</span>
-                                    </td>
-                                    <td>{{ student.year or 'N/A' }}</td>
-                                    <td>{{ student.section or 'N/A' }}</td>
-                                    <td>
-                                        {% if student.is_active %}
-                                            <span class="badge bg-success">Active</span>
-                                        {% else %}
-                                            <span class="badge bg-secondary">Inactive</span>
+                                    </div>
+                                    
+                                    <!-- Student Info -->
+                                    <h6 class="card-title mb-1 text-gradient-primary">{{ student.name }}</h6>
+                                    <p class="text-muted small mb-2">{{ student.student_id }}</p>
+                                    
+                                    <!-- Academic Info -->
+                                    <div class="academic-info mb-3">
+                                        {% if student.department %}
+                                            <span class="badge badge-gradient-primary me-1 mb-1">{{ student.department }}</span>
                                         {% endif %}
-                                    </td>
-                                    <td>
-                                        <div class="btn-group btn-group-sm" role="group">
-                                            <button type="button" class="btn btn-outline-info" 
-                                                    onclick="viewStudent({{ student.id }})" 
-                                                    title="View Details">
-                                                <i class="fas fa-eye"></i>
+                                        {% if student.course %}
+                                            <span class="badge badge-gradient-info me-1 mb-1">{{ student.course }}</span>
+                                        {% endif %}
+                                        {% if student.year %}
+                                            <span class="badge badge-glass me-1 mb-1">Year {{ student.year }}</span>
+                                        {% endif %}
+                                        {% if student.section %}
+                                            <span class="badge badge-glass mb-1">Sec {{ student.section }}</span>
+                                        {% endif %}
+                                    </div>
+                                    
+                                    <!-- Contact Info -->
+                                    <div class="contact-info mb-3">
+                                        <small class="text-muted d-block">
+                                            <i class="fas fa-envelope me-1"></i>
+                                            <a href="mailto:{{ student.email }}" class="text-decoration-none">{{ student.email }}</a>
+                                        </small>
+                                        {% if student.phone %}
+                                            <small class="text-muted d-block">
+                                                <i class="fas fa-phone me-1"></i>{{ student.phone }}
+                                            </small>
+                                        {% endif %}
+                                    </div>
+                                    
+                                    <!-- Quick Actions -->
+                                    <div class="quick-actions d-flex justify-content-center gap-1">
+                                        <button type="button" class="btn btn-glass btn-sm hover-glow-primary" 
+                                                onclick="viewStudent({{ student.id }})" 
+                                                title="View Details"
+                                                data-bs-toggle="tooltip">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        {% if student.is_active %}
+                                            <button type="button" class="btn btn-glass btn-sm hover-glow-warning" 
+                                                    onclick="editStudent({{ student.id }})" 
+                                                    title="Edit Student"
+                                                    data-bs-toggle="tooltip">
+                                                <i class="fas fa-edit"></i>
                                             </button>
+                                            <button type="button" class="btn btn-glass btn-sm hover-glow-danger" 
+                                                    onclick="deleteStudent({{ student.id }}, '{{ student.name }}')" 
+                                                    title="Deactivate Student"
+                                                    data-bs-toggle="tooltip">
+                                                <i class="fas fa-user-slash"></i>
+                                            </button>
+                                        {% else %}
+                                            <button type="button" class="btn btn-glass btn-sm hover-glow-success" 
+                                                    onclick="reactivateStudent({{ student.id }}, '{{ student.name }}')" 
+                                                    title="Reactivate Student"
+                                                    data-bs-toggle="tooltip">
+                                                <i class="fas fa-user-check"></i>
+                                            </button>
+                                        {% endif %}
+                                        <div class="dropdown">
+                                            <button class="btn btn-glass btn-sm dropdown-toggle" type="button" 
+                                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                                    title="More Actions">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-glass">
+                                                <li><a class="dropdown-item dropdown-item-enhanced" href="#" onclick="viewAttendanceHistory({{ student.id }})">
+                                                    <i class="fas fa-history me-2"></i>Attendance History
+                                                </a></li>
+                                                <li><a class="dropdown-item dropdown-item-enhanced" href="#" onclick="generateReport({{ student.id }})">
+                                                    <i class="fas fa-chart-bar me-2"></i>Generate Report
+                                                </a></li>
+                                                <li><hr class="dropdown-divider"></li>
+                                                <li><a class="dropdown-item dropdown-item-enhanced text-danger" href="#" onclick="permanentlyDeleteStudent({{ student.id }}, '{{ student.name }}')">
+                                                    <i class="fas fa-trash me-2"></i>Permanently Delete
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    
+                    <!-- List View (Hidden by default) -->
+                    <div id="listView" class="d-none">
+                        <div class="table-responsive">
+                            <table class="table table-glass" id="studentsTable">
+                                <thead>
+                                    <tr>
+                                        <th class="sortable" data-sort="photo">Photo</th>
+                                        <th class="sortable" data-sort="student_id">Student ID <i class="fas fa-sort ms-1"></i></th>
+                                        <th class="sortable" data-sort="name">Name <i class="fas fa-sort ms-1"></i></th>
+                                        <th class="sortable" data-sort="email">Email <i class="fas fa-sort ms-1"></i></th>
+                                        <th class="sortable" data-sort="department">Department <i class="fas fa-sort ms-1"></i></th>
+                                        <th class="sortable" data-sort="course">Course <i class="fas fa-sort ms-1"></i></th>
+                                        <th class="sortable" data-sort="year">Year <i class="fas fa-sort ms-1"></i></th>
+                                        <th class="sortable" data-sort="section">Section <i class="fas fa-sort ms-1"></i></th>
+                                        <th class="sortable" data-sort="status">Status <i class="fas fa-sort ms-1"></i></th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for student in students %}
+                                    <tr class="student-row fade-in-up stagger-{{ loop.index % 6 + 1 }}"
+                                        data-student-name="{{ student.name|lower }}" 
+                                        data-student-id="{{ student.student_id|lower }}" 
+                                        data-student-email="{{ student.email|lower }}" 
+                                        data-student-department="{{ (student.department or '')|lower }}"
+                                        data-student-course="{{ (student.course or '')|lower }}"
+                                        data-student-year="{{ student.year or '' }}"
+                                        data-student-section="{{ (student.section or '')|lower }}"
+                                        data-student-status="{{ 'active' if student.is_active else 'inactive' }}">
+                                        <td>
+                                            {% if student.image_path %}
+                                                <img src="/{{ student.image_path }}" 
+                                                     alt="{{ student.name }}" 
+                                                     class="rounded-circle hover-scale-sm" 
+                                                     style="width: 40px; height: 40px; object-fit: cover;"
+                                                     onerror="this.src='/static/images/default-avatar.svg'">
+                                            {% else %}
+                                                <div class="rounded-circle bg-primary-gradient d-flex align-items-center justify-content-center hover-scale-sm" 
+                                                     style="width: 40px; height: 40px;">
+                                                    <i class="fas fa-user text-white"></i>
+                                                </div>
+                                            {% endif %}
+                                        </td>
+                                        <td><strong>{{ student.student_id }}</strong></td>
+                                        <td>{{ student.name }}</td>
+                                        <td><a href="mailto:{{ student.email }}" class="text-decoration-none">{{ student.email }}</a></td>
+                                        <td>
+                                            {% if student.department %}
+                                                <span class="badge badge-gradient-primary">{{ student.department }}</span>
+                                            {% else %}
+                                                <span class="text-muted">N/A</span>
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            {% if student.course %}
+                                                <span class="badge badge-gradient-info">{{ student.course }}</span>
+                                            {% else %}
+                                                <span class="text-muted">N/A</span>
+                                            {% endif %}
+                                        </td>
+                                        <td>{{ student.year or 'N/A' }}</td>
+                                        <td>{{ student.section or 'N/A' }}</td>
+                                        <td>
+                                            {% if student.is_active %}
+                                                <span class="badge badge-gradient-success pulse-animation">Active</span>
+                                            {% else %}
+                                                <span class="badge badge-glass">Inactive</span>
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <button type="button" class="btn btn-glass hover-glow-primary" 
+                                                        onclick="viewStudent({{ student.id }})" 
+                                                        title="View Details"
+                                                        data-bs-toggle="tooltip">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
                                                 {% if student.is_active %}
-                                                    <button type="button" class="btn btn-outline-warning" 
+                                                    <button type="button" class="btn btn-glass hover-glow-warning" 
                                                             onclick="editStudent({{ student.id }})" 
-                                                            title="Edit Student">
+                                                            title="Edit Student"
+                                                            data-bs-toggle="tooltip">
                                                         <i class="fas fa-edit"></i>
                                                     </button>
-                                                    <button type="button" class="btn btn-outline-danger" 
+                                                    <button type="button" class="btn btn-glass hover-glow-danger" 
                                                             onclick="deleteStudent({{ student.id }}, '{{ student.name }}')" 
-                                                            title="Deactivate Student">
+                                                            title="Deactivate Student"
+                                                            data-bs-toggle="tooltip">
                                                         <i class="fas fa-user-slash"></i>
                                                     </button>
-                                                    <button type="button" class="btn btn-outline-danger" 
-                                                            onclick="permanentlyDeleteStudent({{ student.id }}, '{{ student.name }}')" 
-                                                            title="Permanently Delete">
-                                                        <i class="fas fa-trash"></i>
-                                                    </button>
                                                 {% else %}
-                                                    <button type="button" class="btn btn-outline-success" 
+                                                    <button type="button" class="btn btn-glass hover-glow-success" 
                                                             onclick="reactivateStudent({{ student.id }}, '{{ student.name }}')" 
-                                                            title="Reactivate Student">
+                                                            title="Reactivate Student"
+                                                            data-bs-toggle="tooltip">
                                                         <i class="fas fa-user-check"></i>
                                                     </button>
-                                                    <button type="button" class="btn btn-outline-danger" 
-                                                            onclick="permanentlyDeleteStudent({{ student.id }}, '{{ student.name }}')" 
-                                                            title="Permanently Delete">
-                                                        <i class="fas fa-trash"></i>
-                                                    </button>
                                                 {% endif %}
+                                                <div class="dropdown">
+                                                    <button class="btn btn-glass btn-sm dropdown-toggle" type="button" 
+                                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <i class="fas fa-ellipsis-v"></i>
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-glass">
+                                                        <li><a class="dropdown-item dropdown-item-enhanced" href="#" onclick="viewAttendanceHistory({{ student.id }})">
+                                                            <i class="fas fa-history me-2"></i>Attendance History
+                                                        </a></li>
+                                                        <li><a class="dropdown-item dropdown-item-enhanced" href="#" onclick="generateReport({{ student.id }})">
+                                                            <i class="fas fa-chart-bar me-2"></i>Generate Report
+                                                        </a></li>
+                                                        <li><hr class="dropdown-divider"></li>
+                                                        <li><a class="dropdown-item dropdown-item-enhanced text-danger" href="#" onclick="permanentlyDeleteStudent({{ student.id }}, '{{ student.name }}')">
+                                                            <i class="fas fa-trash me-2"></i>Permanently Delete
+                                                        </a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                {% endfor %}
-                            </tbody>
-                        </table>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 {% else %}
                     <div class="text-center py-5">
                         <i class="fas fa-users fa-3x text-muted mb-3"></i>
-                        <h4 class="text-muted">No Students Registered</h4>
-                        <p class="text-muted mb-4">Start by registering your first student</p>
-                        <a href="{{ url_for('register_student') }}" class="btn btn-primary btn-lg">
-                            <i class="fas fa-user-plus me-2"></i>Register First Student
+                        <h4 class="text-muted">No Students Found</h4>
+                        <p class="text-muted">Start by registering your first student.</p>
+                        <a href="{{ url_for('register_student') }}" class="btn btn-enhanced btn-gradient-primary">
+                            <i class="fas fa-plus"></i> Register Student
                         </a>
                     </div>
                 {% endif %}
-            </div>
-        </div>
     </div>
 </div>
 
@@ -257,7 +448,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-danger" id="confirmDelete">Delete Student</button>
+                <button type="button" class="btn btn-enhanced btn-gradient-danger" id="confirmDelete">Delete Student</button>
             </div>
         </div>
     </div>
@@ -431,6 +622,154 @@ function permanentlyDeleteStudent(studentId, studentName) {
         });
     }
 }
+
+// Mobile swipe action handlers
+function confirmDeleteStudent(element, direction) {
+    const studentName = element.dataset.studentName;
+    const studentId = element.dataset.studentId;
+    
+    if (confirm(`Are you sure you want to delete ${studentName}?`)) {
+        // Use existing delete functionality
+        deleteStudent(studentId);
+    }
+}
+
+// Enhanced mobile interactions for students page
+function initializeMobileStudentInteractions() {
+    // Add touch feedback to all interactive elements
+    const interactiveElements = document.querySelectorAll('.btn, .student-card, .form-control, .form-select');
+    interactiveElements.forEach(element => {
+        if (!element.classList.contains('touch-feedback')) {
+            element.classList.add('touch-feedback');
+        }
+    });
+    
+    // Enhanced search for mobile
+    const searchInput = document.getElementById('realTimeSearch');
+    if (searchInput) {
+        // Add mobile-specific search enhancements
+        searchInput.addEventListener('focus', function() {
+            if (window.innerWidth < 768) {
+                // Scroll to search on mobile
+                setTimeout(() => {
+                    this.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, 300);
+            }
+        });
+        
+        // Add search clear button for mobile
+        const searchContainer = searchInput.parentElement;
+        if (!searchContainer.querySelector('.search-clear-btn')) {
+            const clearButton = document.createElement('button');
+            clearButton.type = 'button';
+            clearButton.className = 'btn btn-link position-absolute top-50 end-0 translate-middle-y me-5 p-1 search-clear-btn';
+            clearButton.innerHTML = '<i class="fas fa-times text-muted"></i>';
+            clearButton.style.display = 'none';
+            clearButton.addEventListener('click', function() {
+                searchInput.value = '';
+                searchInput.dispatchEvent(new Event('input'));
+                this.style.display = 'none';
+                searchInput.focus();
+            });
+            
+            searchContainer.appendChild(clearButton);
+            
+            searchInput.addEventListener('input', function() {
+                clearButton.style.display = this.value ? 'block' : 'none';
+            });
+        }
+    }
+    
+    // Enhanced card interactions for mobile
+    const studentCards = document.querySelectorAll('.student-card');
+    studentCards.forEach(card => {
+        // Add long press for context menu on mobile
+        let pressTimer;
+        
+        card.addEventListener('touchstart', function(e) {
+            pressTimer = setTimeout(() => {
+                // Show context menu or additional options
+                if (navigator.vibrate) {
+                    navigator.vibrate(50);
+                }
+                showStudentContextMenu(this, e.touches[0]);
+            }, 500);
+        }, { passive: true });
+        
+        card.addEventListener('touchend', function() {
+            clearTimeout(pressTimer);
+        }, { passive: true });
+        
+        card.addEventListener('touchmove', function() {
+            clearTimeout(pressTimer);
+        }, { passive: true });
+    });
+}
+
+// Show context menu for student card
+function showStudentContextMenu(card, touch) {
+    const studentName = card.dataset.studentName;
+    const studentId = card.dataset.studentId;
+    
+    // Remove existing context menu
+    const existingMenu = document.querySelector('.mobile-context-menu');
+    if (existingMenu) {
+        existingMenu.remove();
+    }
+    
+    // Create context menu
+    const contextMenu = document.createElement('div');
+    contextMenu.className = 'mobile-context-menu glass';
+    contextMenu.style.cssText = `
+        position: fixed;
+        left: ${Math.min(touch.clientX, window.innerWidth - 200)}px;
+        top: ${Math.min(touch.clientY, window.innerHeight - 150)}px;
+        z-index: 1000;
+        background: var(--glass-bg-light);
+        backdrop-filter: blur(20px);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        padding: 0.5rem;
+        box-shadow: var(--shadow-heavy);
+        min-width: 180px;
+    `;
+    
+    contextMenu.innerHTML = `
+        <div class="context-menu-item" onclick="window.location.href='/edit_student/${studentId}'" style="padding: 0.75rem; border-radius: 8px; cursor: pointer; transition: all 0.2s;">
+            <i class="fas fa-edit me-2 text-primary"></i>Edit Student
+        </div>
+        <div class="context-menu-item" onclick="confirmDeleteStudent(document.querySelector('[data-student-id=\\'${studentId}\\']'))" style="padding: 0.75rem; border-radius: 8px; cursor: pointer; transition: all 0.2s;">
+            <i class="fas fa-trash me-2 text-danger"></i>Delete Student
+        </div>
+    `;
+    
+    // Add hover effects
+    contextMenu.querySelectorAll('.context-menu-item').forEach(item => {
+        item.addEventListener('mouseenter', function() {
+            this.style.background = 'var(--glass-bg)';
+        });
+        item.addEventListener('mouseleave', function() {
+            this.style.background = 'transparent';
+        });
+    });
+    
+    document.body.appendChild(contextMenu);
+    
+    // Remove context menu on outside click
+    setTimeout(() => {
+        document.addEventListener('click', function removeContextMenu(e) {
+            if (!contextMenu.contains(e.target)) {
+                contextMenu.remove();
+                document.removeEventListener('click', removeContextMenu);
+            }
+        });
+    }, 100);
+}
+
+// Initialize mobile interactions when DOM is ready
+$(document).ready(function() {
+    initializeMobileStudentInteractions();
+});
 
 
 </script>

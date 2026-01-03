@@ -41,9 +41,11 @@
                                 <div class="form-text">Student ID cannot be changed</div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="name" class="form-label fw-bold">Full Name *</label>
-                                <input type="text" class="form-control" id="name" name="name" 
-                                       value="{{ student.name }}" required>
+                                <div class="form-floating-glass">
+                                    <input type="text" class="form-control-glass" id="name" name="name" 
+                                           value="{{ student.name }}" required placeholder="Full Name">
+                                    <label for="name">Full Name *</label>
+                                </div>
                             </div>
                         </div>
 
@@ -55,14 +57,18 @@
                                 </h6>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="email" class="form-label fw-bold">Email Address *</label>
-                                <input type="email" class="form-control" id="email" name="email" 
-                                       value="{{ student.email }}" required>
+                                <div class="form-floating-glass">
+                                    <input type="email" class="form-control-glass" id="email" name="email" 
+                                           value="{{ student.email }}" required placeholder="Email Address">
+                                    <label for="email">Email Address *</label>
+                                </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="phone" class="form-label fw-bold">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone" name="phone" 
-                                       value="{{ student.phone or '' }}">
+                                <div class="form-floating-glass">
+                                    <input type="tel" class="form-control-glass" id="phone" name="phone" 
+                                           value="{{ student.phone or '' }}" placeholder="Phone Number">
+                                    <label for="phone">Phone Number</label>
+                                </div>
                             </div>
                         </div>
 
@@ -124,9 +130,11 @@
                                 </select>
                             </div>
                             <div class="col-md-3 mb-3">
-                                <label for="batch" class="form-label fw-bold">Batch</label>
-                                <input type="text" class="form-control" id="batch" name="batch" 
-                                       value="{{ student.batch or '' }}">
+                                <div class="form-floating-glass">
+                                    <input type="text" class="form-control-glass" id="batch" name="batch" 
+                                           value="{{ student.batch or '' }}" placeholder="Batch">
+                                    <label for="batch">Batch</label>
+                                </div>
                             </div>
                         </div>
 
@@ -138,8 +146,10 @@
                                 </h6>
                             </div>
                             <div class="col-md-6">
-                                <label for="image" class="form-label fw-bold">Upload New Photo</label>
-                                <input type="file" class="form-control" id="image" name="image" accept="image/*">
+                                <div class="form-floating-glass">
+                                    <input type="file" class="form-control-glass" id="image" name="image" accept="image/*" placeholder="Upload New Photo">
+                                    <label for="image">Upload New Photo</label>
+                                </div>
                                 <div class="form-text">
                                     <i class="fas fa-info-circle me-1"></i>
                                     Upload a clear photo for face recognition
@@ -154,7 +164,7 @@
                                     <a href="{{ url_for('students') }}" class="btn btn-secondary">
                                         <i class="fas fa-times me-1"></i>Cancel
                                     </a>
-                                    <button type="submit" class="btn btn-warning btn-lg" id="updateBtn">
+                                    <button type="submit" class="btn btn-enhanced btn-gradient-warning btn-lg" id="updateBtn">
                                         <i class="fas fa-save me-1"></i>Update Student
                                     </button>
                                 </div>
