@@ -2,6 +2,9 @@ Flask==2.3.3
 Flask-SQLAlchemy==3.0.5
 opencv-python==4.8.1.78
 face-recognition==1.3.0
+# NOTE:
+# dlib does NOT have stable prebuilt wheels for Python 3.11 on Windows.
+# Recommended Python version: 3.9 or 3.10
 dlib==19.24.2
 numpy==1.24.3
 Pillow==10.0.1
