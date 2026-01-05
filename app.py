@@ -695,8 +695,17 @@ def leave_management():
     except Exception as e:
         logger.error(f"Error in leave management: {str(e)}")
         flash('Error loading leave management', 'error')
-        return render_template('leave_management.html', leave_requests=[], students=[],
-                             pending_count=0, approved_count=0, rejected_count=0, on_leave_today=0)
+        return render_template('leave_management.html', 
+                             leave_requests=[], 
+                             students=[],
+                             pending_count=0, 
+                             approved_count=0, 
+                             rejected_count=0, 
+                             on_leave_today=0,
+                             current_status='',
+                             current_type='',
+                             date_from='',
+                             date_to='')
 
 @app.route('/apply_leave', methods=['POST'])
 def apply_leave():
