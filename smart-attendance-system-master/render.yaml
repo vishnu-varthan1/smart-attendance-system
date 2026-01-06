@@ -2,6 +2,7 @@ services:
   - type: web
     name: smart-attendance-system
     runtime: python
+    pythonVersion: "3.11.4"
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     envVars:
@@ -9,5 +10,3 @@ services:
         value: production
       - key: SECRET_KEY
         generateValue: true
-      - key: PYTHON_VERSION
-        value: 3.10.12
