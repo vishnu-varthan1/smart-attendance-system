@@ -38,6 +38,10 @@
     <link href="{{ url_for('static', filename='css/accessibility-enhancements.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
     <!-- Fixed Layout - No Scrolling -->
     <link href="{{ url_for('static', filename='css/fixed-layout.css') }}" rel="stylesheet">
+    <!-- Dark Mode Support -->
+    <link href="{{ url_for('static', filename='css/dark-mode.css') }}" rel="stylesheet">
+    <!-- Dark Mode Script (load early to prevent flash) -->
+    <script src="{{ url_for('static', filename='js/dark-mode.js') }}"></script>
     
     {% block extra_css %}{% endblock %}
 </head>
