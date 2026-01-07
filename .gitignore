@@ -1,69 +1,20 @@
-# Environment
-.env
-.env.local
-.env.*.local
-venv/
-env/
-.venv/
-
-# Python
+# Python cache
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+*.pyc
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
+# Virtual environment
+venv/
 
-# Database
+# Environment variables
+.env
+
+# Database files
 *.db
-*.sqlite3
-instance/
 
 # Logs
-*.log
 logs/
+*.log
 
-# Uploads and generated files
-static/uploads/*
-!static/uploads/.gitkeep
-student_images/*
-!student_images/.gitkeep
-exports/*
-!exports/.gitkeep
-face_data/*
-!face_data/.gitkeep
-
-# Testing
-.coverage
-htmlcov/
-.pytest_cache/
-coverage.xml
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
-
-# Models (large files)
-models/*.dat
-models/*.pkl
