@@ -1,9 +1,21 @@
-Flask==2.3.3
-Flask-SQLAlchemy==3.0.5
-opencv-python-headless==4.8.1.78
-numpy>=1.26.0
-Pillow>=10.0.0
-gunicorn==21.2.0
-python-dotenv==1.0.0
-Werkzeug>=2.3.7
-SQLAlchemy>=2.0.0
+# Core dependencies for face recognition and computer vision
+opencv-python==4.8.0.74
+face-recognition==1.3.0
+dlib==19.24.2
+
+# Data and Image handling
+numpy==1.24.3
+Pillow==10.0.0
+openpyxl==3.1.2
+
+# UI and Backend
+mysql-connector-python==8.0.33
+firebase-admin==6.2.0
+
+# Utilities
+pyzbar==0.1.9
+pyttsx3==2.90
+click==8.1.7
+
+# Build tools (Required for dlib installation)
+cmake==3.27.0
