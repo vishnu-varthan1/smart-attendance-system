@@ -2,16 +2,15 @@ name: Automated Code Review
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
-
-permissions:
-  contents: read
-  pull-requests: write
+    types: [opened, synchronize]
 
 jobs:
-  code-quality:
-    name: Code Quality Analysis
+  code-review:
+    name: Code Review Checks
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,51 +21,39 @@ jobs:
         with:
           python-version: '3.10'
       
-      - name: Install analysis tools
-        run: pip install flake8 pylint radon lizard
+      - name: Install review tools
+        run: |
+          pip install flake8 pylint radon
       
-      - name: Get changed Python files
+      - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v44
         with:
           files: |
             **/*.py
       
-      - name: Run code analysis
+      - name: Run pylint on changed files
         if: steps.changed-files.outputs.any_changed == 'true'
-        id: analysis
         run: |
-          echo "## Code Quality Report" > report.md
-          echo "" >> report.md
-          echo "### Changed Files" >> report.md
-          echo "\`\`\`" >> report.md
-          echo "${{ steps.changed-files.outputs.all_changed_files }}" >> report.md
-          echo "\`\`\`" >> report.md
-          echo "" >> report.md
-          
-          echo "### Flake8 (Style & Errors)" >> report.md
-          echo "\`\`\`" >> report.md
-          flake8 ${{ steps.changed-files.outputs.all_changed_files }} --max-line-length=120 --statistics 2>&1 >> report.md || true
-          echo "\`\`\`" >> report.md
-          echo "" >> report.md
-          
-          echo "### Cyclomatic Complexity" >> report.md
-          echo "\`\`\`" >> report.md
+          echo "## Pylint Report" > review-report.md
+          echo "" >> review-report.md
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "File: $file" >> report.md
-            radon cc "$file" -a -s 2>&1 >> report.md || true
+            echo "### $file" >> review-report.md
+            pylint "$file" --output-format=text --score=yes 2>/dev/null >> review-report.md || true
+            echo "" >> review-report.md
           done
-          echo "\`\`\`" >> report.md
-          echo "" >> report.md
-          
-          echo "### Maintainability Index" >> report.md
-          echo "\`\`\`" >> report.md
-          radon mi ${{ steps.changed-files.outputs.all_changed_files }} -s 2>&1 >> report.md || true
-          echo "\`\`\`" >> report.md
-          
-          echo "" >> report.md
-          echo "---" >> report.md
-          echo "*Automated code review by GitHub Actions*" >> report.md
+        continue-on-error: true
+      
+      - name: Check code complexity
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "## Complexity Report" >> review-report.md
+          echo "" >> review-report.md
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "### $file" >> review-report.md
+            radon cc "$file" -a -s 2>/dev/null >> review-report.md || true
+            echo "" >> review-report.md
+          done
         continue-on-error: true
       
       - name: Post review comment
@@ -75,49 +62,51 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            let report = 'No Python files changed.';
             
+            let report = '';
             try {
-              report = fs.readFileSync('report.md', 'utf8');
+              report = fs.readFileSync('review-report.md', 'utf8');
             } catch (e) {
-              console.log('No report generated');
+              report = 'No Python files changed or review completed successfully.';
             }
             
+            // Truncate if too long
             if (report.length > 60000) {
               report = report.substring(0, 60000) + '\n\n... (truncated)';
             }
             
+            const body = `## 🤖 Automated Code Review\n\n${report}\n\n---\n*This is an automated review. Please address any issues before merging.*`;
+            
+            // Find existing comment
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.pull_request.number
             });
             
-            const botComment = comments.find(c => 
-              c.user.type === 'Bot' && c.body.includes('Code Quality Report')
-            );
+            const botComment = comments.find(c => c.body.includes('🤖 Automated Code Review'));
             
             if (botComment) {
               await github.rest.issues.updateComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 comment_id: botComment.id,
-                body: report
+                body: body
               });
             } else {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.payload.pull_request.number,
-                body: report
+                body: body
               });
             }
-        continue-on-error: true
 
   pr-checklist:
     name: PR Checklist
     runs-on: ubuntu-latest
-    if: github.event.action == 'opened'
+    permissions:
+      pull-requests: write
     steps:
       - name: Add PR checklist
         uses: actions/github-script@v7
@@ -125,38 +114,26 @@ jobs:
           script: |
             const pr = context.payload.pull_request;
             
+            // Only add checklist on new PRs
+            if (context.payload.action !== 'opened') return;
+            
             const checklist = `## PR Checklist
             
-            Please review and check off the following:
+            Please ensure the following before requesting review:
             
-            ### Code Quality
             - [ ] Code follows project style guidelines
             - [ ] Self-review completed
-            - [ ] No unnecessary console.log/print statements
-            - [ ] No hardcoded values or secrets
-            
-            ### Testing
-            - [ ] Tests added/updated for new functionality
-            - [ ] All existing tests pass
-            - [ ] Manual testing completed
-            
-            ### Documentation
-            - [ ] Code comments added for complex logic
-            - [ ] README updated (if applicable)
-            
-            ### Security
+            - [ ] Comments added for complex logic
+            - [ ] Tests added/updated (if applicable)
+            - [ ] Documentation updated (if applicable)
             - [ ] No sensitive data exposed
-            - [ ] Input validation implemented
+            - [ ] Database migrations included (if schema changed)
             
             ---
-            
             **PR Stats:**
-            | Metric | Value |
-            |--------|-------|
-            | Files Changed | ${pr.changed_files} |
-            | Additions | +${pr.additions} |
-            | Deletions | -${pr.deletions} |
-            | Total Changes | ${pr.additions + pr.deletions} |
+            - Files changed: ${pr.changed_files}
+            - Additions: +${pr.additions}
+            - Deletions: -${pr.deletions}
             `;
             
             await github.rest.issues.createComment({
@@ -165,4 +142,3 @@ jobs:
               issue_number: pr.number,
               body: checklist
             });
-        continue-on-error: true
