@@ -51,12 +51,18 @@ class FaceDetector:
         with self.lock:
             self.known_faces = []
             for student in students_data:
-                if student.get('face_encoding'):
+                encoding = student.get('face_encoding')
+                # Check if encoding exists and has data (handle numpy arrays properly)
+                has_encoding = encoding is not None and (
+                    (hasattr(encoding, '__len__') and len(encoding) > 0) or
+                    (isinstance(encoding, (list, tuple)) and len(encoding) > 0)
+                )
+                if has_encoding:
                     self.known_faces.append({
                         'id': student['id'],
                         'name': student['name'],
                         'student_id': student['student_id'],
-                        'encoding': student['face_encoding']
+                        'encoding': encoding
                     })
         
         self.logger.info(f"Loaded {len(self.known_faces)} student faces for recognition")

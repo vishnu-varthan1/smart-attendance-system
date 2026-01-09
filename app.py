@@ -111,31 +111,37 @@ def index():
             AttendanceRecord.created_at.desc()
         ).limit(10).all()
         
-        return render_template('index.html', 
+        # Use modern clean template
+        return render_template('index_clean.html', 
                              total_students=total_students,
                              today_attendance=today_attendance,
-                             recent_records=recent_records)
+                             recent_records=recent_records,
+                             datetime=datetime)
     except Exception as e:
         logger.error(f"Error in index route: {str(e)}")
         flash('Error loading dashboard', 'error')
-        return render_template('index.html')
+        return render_template('index_clean.html', 
+                             total_students=0,
+                             today_attendance=0,
+                             recent_records=[],
+                             datetime=datetime)
 
 @app.route('/students')
 def students():
     """Student management page"""
     try:
         students = Student.query.filter_by(is_active=True).all()
-        return render_template('students.html', students=students)
+        return render_template('students_clean.html', students=students)
     except Exception as e:
         logger.error(f"Error in students route: {str(e)}")
         flash('Error loading students', 'error')
-        return render_template('students.html', students=[])
+        return render_template('students_clean.html', students=[])
 
 @app.route('/register_student', methods=['GET', 'POST'])
 def register_student():
     """Register new student"""
     if request.method == 'GET':
-        return render_template('register_student.html')
+        return render_template('register_student_clean.html')
     
     try:
         # Get form data
@@ -154,34 +160,47 @@ def register_student():
         if errors:
             for error in errors:
                 flash(error, 'error')
-            return render_template('register_student.html', data=data)
+            return render_template('register_student_clean.html', data=data)
         
         # Check if student already exists
         existing_student = Student.query.filter_by(student_id=data['student_id']).first()
         if existing_student:
             flash('Student ID already exists', 'error')
-            return render_template('register_student.html', data=data)
+            return render_template('register_student_clean.html', data=data)
         
-        # Handle image upload
-        if 'image' not in request.files:
-            flash('Student photo is required', 'error')
-            return render_template('register_student.html', data=data)
+        # Handle image - either from file upload or camera capture
+        image_path = None
+        captured_image = request.form.get('captured_image')
         
-        file = request.files['image']
-        if file.filename == '':
-            flash('No image selected', 'error')
-            return render_template('register_student.html', data=data)
-        
-        # Save uploaded image
-        image_path = save_uploaded_file(
-            file, 
-            app.config['STUDENT_IMAGES_FOLDER'],
-            f"student_{data['student_id']}_"
-        )
+        if captured_image and captured_image.startswith('data:image'):
+            # Handle camera captured image (base64)
+            try:
+                # Extract base64 data
+                header, encoded = captured_image.split(',', 1)
+                image_data = base64.b64decode(encoded)
+                
+                # Save to file
+                filename = f"student_{data['student_id']}_{datetime.now().strftime('%Y%m%d%H%M%S')}.jpg"
+                image_path = os.path.join(app.config['STUDENT_IMAGES_FOLDER'], filename)
+                
+                with open(image_path, 'wb') as f:
+                    f.write(image_data)
+            except Exception as e:
+                logger.error(f"Error saving captured image: {str(e)}")
+                flash('Error saving captured image', 'error')
+                return render_template('register_student_clean.html', data=data)
+        elif 'image' in request.files and request.files['image'].filename != '':
+            # Handle file upload
+            file = request.files['image']
+            image_path = save_uploaded_file(
+                file, 
+                app.config['STUDENT_IMAGES_FOLDER'],
+                f"student_{data['student_id']}_"
+            )
         
         if not image_path:
-            flash('Error uploading image', 'error')
-            return render_template('register_student.html', data=data)
+            flash('Student photo is required (upload or capture)', 'error')
+            return render_template('register_student_clean.html', data=data)
         
         # Extract face encoding (if face recognition is available)
         face_encoding = None
@@ -218,7 +237,7 @@ def register_student():
     except Exception as e:
         logger.error(f"Error registering student: {str(e)}")
         flash('Error registering student', 'error')
-        return render_template('register_student.html')
+        return render_template('register_student_clean.html')
 
 @app.route('/attendance')
 def attendance():
@@ -247,7 +266,7 @@ def attendance():
         departments = db.session.query(Student.department).distinct().all()
         years = db.session.query(Student.year).distinct().all()
         
-        return render_template('attendance.html', 
+        return render_template('attendance_clean.html', 
                              records=records,
                              departments=[d[0] for d in departments if d[0]],
                              years=[y[0] for y in years if y[0]],
@@ -257,12 +276,12 @@ def attendance():
     except Exception as e:
         logger.error(f"Error in attendance route: {str(e)}")
         flash('Error loading attendance records', 'error')
-        return render_template('attendance.html', records=[])
+        return render_template('attendance_clean.html', records=[])
 
 @app.route('/mark_attendance')
 def mark_attendance():
     """Face recognition attendance marking page"""
-    return render_template('mark_attendance.html')
+    return render_template('mark_attendance_clean.html')
 
 @app.route('/start_detection', methods=['POST'])
 def start_detection():
@@ -306,7 +325,8 @@ def start_face_recognition():
         
         for student in students:
             face_encoding = student.get_face_encoding()
-            if face_encoding is not None:
+            # Check if face_encoding exists and has data
+            if face_encoding is not None and (hasattr(face_encoding, '__len__') and len(face_encoding) > 0):
                 students_data.append({
                     'id': student.id,
                     'name': student.name,
@@ -698,7 +718,7 @@ def leave_management():
         
         logger.info(f"Leave management loaded: {len(leave_requests)} requests, {len(students)} students")
         
-        return render_template('leave_management.html',
+        return render_template('leave_management_clean.html',
                              leave_requests=leave_requests,
                              students=students,
                              pending_count=pending_count,
@@ -714,7 +734,7 @@ def leave_management():
         logger.error(f"Error in leave management: {str(e)}")
         logger.error(traceback.format_exc())
         flash('Error loading leave management', 'error')
-        return render_template('leave_management.html', 
+        return render_template('leave_management_clean.html', 
                              leave_requests=[], 
                              students=[],
                              pending_count=0, 
@@ -895,7 +915,7 @@ def reports():
                 dept_stats[dept][record.status.lower()] += 1
                 dept_stats[dept]['total'] += 1
         
-        return render_template('reports.html', 
+        return render_template('reports_clean.html', 
                              summary=summary,
                              dept_stats=dept_stats,
                              date_from=date_from,
@@ -904,7 +924,7 @@ def reports():
     except Exception as e:
         logger.error(f"Error in reports route: {str(e)}")
         flash('Error loading reports', 'error')
-        return render_template('reports.html')
+        return render_template('reports_clean.html')
 
 @app.route('/api/student/<int:student_id>')
 def get_student(student_id):

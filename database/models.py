@@ -26,9 +26,13 @@ class Student(db.Model):
     attendance_records = db.relationship('AttendanceRecord', backref='student', lazy=True)
     
     def set_face_encoding(self, encoding):
-        """Convert numpy array to JSON string for storage"""
+        """Convert numpy array or list to JSON string for storage"""
         if encoding is not None:
-            self.face_encoding = json.dumps(encoding.tolist())
+            # Handle both numpy arrays and lists
+            if hasattr(encoding, 'tolist'):
+                self.face_encoding = json.dumps(encoding.tolist())
+            else:
+                self.face_encoding = json.dumps(encoding)
     
     def get_face_encoding(self):
         """Convert JSON string back to numpy array"""
