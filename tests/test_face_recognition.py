@@ -26,9 +26,9 @@ def test_face_recognition():
             print(f"⚠️  face_recognition library has issues: {e}")
             print("🔄 Will use fallback system...")
         
-        from face_recognition_simple import SimpleFaceRecognition
-        face_system = SimpleFaceRecognition()
-        print("✅ SimpleFaceRecognition system initialized")
+        from src.face_recognition.face_detector import FaceDetector
+        face_system = FaceDetector()
+        print("✅ FaceDetector system initialized")
         
         return "advanced"
         
@@ -39,9 +39,9 @@ def test_face_recognition():
         # Test 2: Try fallback system
         try:
             import cv2
-            from face_recognition_fallback import FallbackFaceRecognition
-            face_system = FallbackFaceRecognition()
-            print("✅ FallbackFaceRecognition system initialized")
+            from src.face_recognition.face_detector import FaceDetector
+            face_system = FaceDetector()
+            print("✅ FaceDetector system initialized")
             return "fallback"
             
         except ImportError as e:

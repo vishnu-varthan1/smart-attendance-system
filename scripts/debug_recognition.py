@@ -5,7 +5,7 @@ Debug script to test face recognition functionality
 
 import os
 import sys
-from face_recognition_enhanced import EnhancedFaceRecognition
+from src.face_recognition.face_detector import FaceDetector
 
 def test_recognition():
     print("🔍 Testing Enhanced Face Recognition System...")

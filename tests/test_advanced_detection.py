@@ -87,7 +87,7 @@ def test_advanced_face_detection():
     print("-" * 50)
     
     try:
-        from face_detection_new import AdvancedFaceDetection
+        from src.face_recognition.face_detector import FaceDetector
         
         # Initialize system
         face_detector = AdvancedFaceDetection()

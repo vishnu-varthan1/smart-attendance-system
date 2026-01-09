@@ -195,7 +195,7 @@ def test_enhanced_system():
     print("-" * 50)
     
     try:
-        from face_recognition_enhanced import EnhancedFaceRecognition
+        from src.face_recognition.face_detector import FaceDetector
         
         # Initialize system
         face_system = EnhancedFaceRecognition()

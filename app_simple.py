@@ -4,26 +4,17 @@ import cv2
 import os
 from datetime import datetime, date, timedelta
 import logging
-# Use enhanced face recognition system with multiple fallbacks
+# Use the proper face recognition system from src/face_recognition
 try:
-    from src.core.face_recognition_enhanced import EnhancedFaceRecognition
-    FaceRecognitionClass = EnhancedFaceRecognition
-    print("🚀 Using Enhanced Face Recognition System")
+    from src.face_recognition.face_encoder import FaceEncoder
+    from src.face_recognition.face_detector import FaceDetector
+    FACE_RECOGNITION_AVAILABLE = True
+    print("✅ Face recognition modules imported successfully")
 except ImportError as e:
-    print(f"⚠️  Enhanced face recognition not available, trying advanced...")
-    try:
-        from src.core.face_detection_new import AdvancedFaceDetection
-        FaceRecognitionClass = AdvancedFaceDetection
-        print("✅ Using Advanced Face Detection System")
-    except ImportError as e2:
-        print(f"⚠️  Advanced face detection not available, trying simple...")
-        try:
-            from src.core.face_recognition_opencv_simple import OpenCVSimpleFaceRecognition
-            FaceRecognitionClass = OpenCVSimpleFaceRecognition
-            print("✅ Using OpenCV Simple Face Recognition System")
-        except ImportError as e3:
-            print(f"❌ No face recognition system available: {e3}")
-            FaceRecognitionClass = None
+    print(f"⚠️  Face recognition not available: {str(e)}")
+    FaceEncoder = None
+    FaceDetector = None
+    FACE_RECOGNITION_AVAILABLE = False
 
 # Simple configuration
 class SimpleConfig:
