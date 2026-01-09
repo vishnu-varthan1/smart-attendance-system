@@ -1,7 +1,7 @@
 name: Automated Code Review
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize, reopened]
 
 permissions:
@@ -89,46 +89,30 @@ jobs:
               report = report.substring(0, 60000) + '\n\n... (truncated)';
             }
             
-            const { data: comments } = await github.rest.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.pull_request.number
-            });
-            
-            const botComment = comments.find(c => 
-              c.user.type === 'Bot' && c.body.includes('Code Quality Report')
-            );
-            
-            if (botComment) {
-              await github.rest.issues.updateComment({
+            try {
+              const { data: comments } = await github.rest.issues.listComments({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                comment_id: botComment.id,
-                body: report
-              });
-            } else {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
-                body: report
+                issue_number: context.payload.pull_request.number
               });
               
-              const botComment = comments.find(c => c.body.includes('🤖 Automated Code Review'));
+              const botComment = comments.find(c => 
+                c.user.type === 'Bot' && c.body.includes('Code Quality Report')
+              );
               
               if (botComment) {
                 await github.rest.issues.updateComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   comment_id: botComment.id,
-                  body: body
+                  body: report
                 });
               } else {
                 await github.rest.issues.createComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: context.payload.pull_request.number,
-                  body: body
+                  body: report
                 });
               }
             } catch (error) {
@@ -181,10 +165,14 @@ jobs:
             | Total Changes | ${pr.additions + pr.deletions} |
             `;
             
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: pr.number,
-              body: checklist
-            });
+            try {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                body: checklist
+              });
+            } catch (error) {
+              console.log(`Could not post checklist: ${error.message}`);
+            }
         continue-on-error: true
