@@ -6,9 +6,17 @@ Helper utilities for the attendance system
 import os
 import csv
 import logging
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from werkzeug.utils import secure_filename
 import uuid
+
+# Try to import bleach for HTML sanitization
+try:
+    import bleach
+    BLEACH_AVAILABLE = True
+except ImportError:
+    BLEACH_AVAILABLE = False
+    bleach = None
 
 def setup_logging():
     """Setup logging configuration"""
@@ -20,6 +28,86 @@ def setup_logging():
             logging.StreamHandler()
         ]
     )
+
+def sanitize_input(text, allow_basic_html=False):
+    """Sanitize user input to prevent XSS attacks"""
+    if not text:
+        return text
+    
+    # Convert to string if not already
+    text = str(text).strip()
+    
+    if BLEACH_AVAILABLE:
+        if allow_basic_html:
+            # Allow basic formatting tags
+            allowed_tags = ['b', 'i', 'u', 'em', 'strong', 'br', 'p']
+            allowed_attributes = {}
+        else:
+            # Strip all HTML tags
+            allowed_tags = []
+            allowed_attributes = {}
+        
+        # Clean the text
+        cleaned_text = bleach.clean(
+            text, 
+            tags=allowed_tags, 
+            attributes=allowed_attributes,
+            strip=True
+        )
+        
+        return cleaned_text
+    else:
+        # Fallback: basic HTML escaping
+        import html
+        return html.escape(text)
+
+def validate_leave_request_data(data):
+    """Validate and sanitize leave request data"""
+    errors = []
+    
+    # Required fields
+    required_fields = ['student_id', 'leave_type', 'start_date', 'end_date', 'reason']
+    for field in required_fields:
+        if not data.get(field):
+            errors.append(f"{field.replace('_', ' ').title()} is required")
+    
+    # Sanitize text fields
+    if data.get('reason'):
+        data['reason'] = sanitize_input(data['reason'])
+        if len(data['reason']) < 10:
+            errors.append("Reason must be at least 10 characters long")
+        if len(data['reason']) > 500:
+            errors.append("Reason must be less than 500 characters")
+    
+    if data.get('leave_type'):
+        data['leave_type'] = sanitize_input(data['leave_type'])
+        # Validate against allowed leave types
+        allowed_types = ['Sick', 'Personal', 'Family', 'Academic', 'Other']
+        if data['leave_type'] not in allowed_types:
+            errors.append("Invalid leave type selected")
+    
+    # Validate dates
+    if data.get('start_date') and data.get('end_date'):
+        try:
+            from datetime import datetime
+            start = datetime.strptime(data['start_date'], '%Y-%m-%d').date()
+            end = datetime.strptime(data['end_date'], '%Y-%m-%d').date()
+            
+            if end < start:
+                errors.append("End date cannot be before start date")
+            
+            # Check if dates are not too far in the past or future
+            today = date.today()
+            if start < today - timedelta(days=7):
+                errors.append("Start date cannot be more than 7 days in the past")
+            
+            if end > today + timedelta(days=365):
+                errors.append("End date cannot be more than 1 year in the future")
+                
+        except ValueError:
+            errors.append("Invalid date format")
+    
+    return errors, data
 
 def save_uploaded_file(file, upload_folder, prefix=""):
     """Save uploaded file with secure filename"""
@@ -124,7 +212,7 @@ def generate_attendance_summary(records):
         return {}
 
 def validate_student_data(data):
-    """Validate student registration data"""
+    """Validate and sanitize student registration data"""
     errors = []
     
     required_fields = ['student_id', 'name', 'email', 'department', 'year', 'section']
@@ -132,6 +220,12 @@ def validate_student_data(data):
     for field in required_fields:
         if not data.get(field):
             errors.append(f"{field.replace('_', ' ').title()} is required")
+    
+    # Sanitize text fields
+    text_fields = ['student_id', 'name', 'email', 'phone', 'department', 'year', 'section']
+    for field in text_fields:
+        if data.get(field):
+            data[field] = sanitize_input(data[field])
     
     # Validate email format (basic)
     email = data.get('email', '')
@@ -142,6 +236,11 @@ def validate_student_data(data):
     student_id = data.get('student_id', '')
     if student_id and len(student_id) < 3:
         errors.append("Student ID must be at least 3 characters")
+    
+    # Validate name
+    name = data.get('name', '')
+    if name and len(name) < 2:
+        errors.append("Name must be at least 2 characters")
     
     return errors
 

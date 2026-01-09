@@ -37,7 +37,7 @@ except ImportError as e:
 from src.utils.helpers import (
     save_uploaded_file, export_attendance_to_csv, export_attendance_to_excel,
     generate_attendance_summary, validate_student_data, create_directory_structure,
-    setup_logging, get_attendance_status
+    setup_logging, get_attendance_status, sanitize_input, validate_leave_request_data
 )
 
 # Setup logging
@@ -750,28 +750,29 @@ def leave_management():
 def apply_leave():
     """Apply for leave"""
     try:
-        student_id = request.form.get('student_id')
-        leave_type = request.form.get('leave_type')
-        start_date = request.form.get('start_date')
-        end_date = request.form.get('end_date')
-        reason = request.form.get('reason')
+        # Get form data
+        data = {
+            'student_id': request.form.get('student_id'),
+            'leave_type': request.form.get('leave_type'),
+            'start_date': request.form.get('start_date'),
+            'end_date': request.form.get('end_date'),
+            'reason': request.form.get('reason')
+        }
         
-        # Validation
-        if not all([student_id, leave_type, start_date, end_date, reason]):
-            flash('All fields are required', 'error')
+        # Validate and sanitize input
+        errors, sanitized_data = validate_leave_request_data(data)
+        if errors:
+            for error in errors:
+                flash(error, 'error')
             return redirect(url_for('leave_management'))
         
         # Parse dates
-        start = datetime.strptime(start_date, '%Y-%m-%d').date()
-        end = datetime.strptime(end_date, '%Y-%m-%d').date()
-        
-        if end < start:
-            flash('End date cannot be before start date', 'error')
-            return redirect(url_for('leave_management'))
+        start = datetime.strptime(sanitized_data['start_date'], '%Y-%m-%d').date()
+        end = datetime.strptime(sanitized_data['end_date'], '%Y-%m-%d').date()
         
         # Check for overlapping leave requests
         existing = LeaveRequest.query.filter(
-            LeaveRequest.student_id == student_id,
+            LeaveRequest.student_id == sanitized_data['student_id'],
             LeaveRequest.status != 'Rejected',
             LeaveRequest.start_date <= end,
             LeaveRequest.end_date >= start
@@ -781,20 +782,20 @@ def apply_leave():
             flash('A leave request already exists for this period', 'warning')
             return redirect(url_for('leave_management'))
         
-        # Create leave request
+        # Create leave request with sanitized data
         leave_request = LeaveRequest(
-            student_id=student_id,
-            leave_type=leave_type,
+            student_id=sanitized_data['student_id'],
+            leave_type=sanitized_data['leave_type'],
             start_date=start,
             end_date=end,
-            reason=reason
+            reason=sanitized_data['reason']  # Already sanitized
         )
         
         db.session.add(leave_request)
         db.session.commit()
         
-        student = Student.query.get(student_id)
-        logger.info(f"Leave request created for {student.name}: {start_date} to {end_date}")
+        student = Student.query.get(sanitized_data['student_id'])
+        logger.info(f"Leave request created for {student.name}: {sanitized_data['start_date']} to {sanitized_data['end_date']}")
         flash('Leave request submitted successfully!', 'success')
         
     except Exception as e:
