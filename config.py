@@ -58,6 +58,10 @@ class Config:
     STUDENTS_PER_PAGE = 50
     ATTENDANCE_PER_PAGE = 100
     MAX_PER_PAGE = 500
+    # Rate Limiting Configuration
+    RATELIMIT_STORAGE_URL = 'memory://'
+    RATELIMIT_STRATEGY = 'fixed-window'
+    RATELIMIT_DEFAULT = '200 per day, 50 per hour'
     
     @staticmethod
     def init_app(app):

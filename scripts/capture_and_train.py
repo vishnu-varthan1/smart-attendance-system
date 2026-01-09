@@ -5,7 +5,7 @@ Capture current face from camera and add to training
 
 import cv2
 import os
-from face_recognition_enhanced import EnhancedFaceRecognition
+from src.face_recognition.face_encoder import FaceEncoder
 
 def capture_and_train():
     print("📷 Capturing face from camera for training...")

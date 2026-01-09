@@ -5,7 +5,7 @@ Simple test to check if face detection is working
 
 import cv2
 import numpy as np
-from face_recognition_enhanced import EnhancedFaceRecognition
+from src.face_recognition.face_detector import FaceDetector
 
 def test_detection():
     print("🔍 Testing face detection...")

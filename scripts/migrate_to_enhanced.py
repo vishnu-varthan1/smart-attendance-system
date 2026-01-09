@@ -5,7 +5,7 @@ Migrate existing students to enhanced face recognition system
 
 import sqlite3
 import os
-from face_recognition_enhanced import EnhancedFaceRecognition
+from src.face_recognition.face_encoder import FaceEncoder
 
 def migrate_students():
     print("🔄 Migrating students to enhanced face recognition...")

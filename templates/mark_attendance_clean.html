@@ -66,6 +66,7 @@
         </div>
         <div class="card-body">
             <form method="POST" action="{{ url_for('mark_manual_attendance') }}" class="flex gap-3">
+                {{ csrf_token() }}
                 <div class="form-group" style="margin-bottom: 0; flex: 1;">
                     <input type="text" name="student_id" class="form-input" placeholder="Enter Student ID (e.g., STU001)" required>
                 </div>
