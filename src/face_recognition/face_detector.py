@@ -46,6 +46,28 @@ class FaceDetector:
         else:
             self.logger.info("Face detector initialized with OpenCV")
     
+    def __del__(self):
+        """Destructor to ensure camera resources are cleaned up"""
+        try:
+            if hasattr(self, 'is_running') and self.is_running:
+                self.stop_detection()
+        except Exception as e:
+            # Use print instead of logger as logger might not be available during destruction
+            print(f"Error during FaceDetector cleanup: {e}")
+    
+    def __enter__(self):
+        """Context manager entry"""
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """Context manager exit - ensure cleanup"""
+        try:
+            if self.is_running:
+                self.stop_detection()
+        except Exception as e:
+            self.logger.error(f"Error during context manager cleanup: {e}")
+        return False  # Don't suppress exceptions
+    
     def load_known_faces(self, students_data):
         """Load known faces from student data"""
         with self.lock:
@@ -77,11 +99,15 @@ class FaceDetector:
         if self.is_running:
             return True
             
+        # Ensure any previous camera is released
+        self._cleanup_camera()
+            
         try:
             # Initialize camera
             self.cap = cv2.VideoCapture(self.camera_index)
             if not self.cap.isOpened():
                 self.logger.error(f"Failed to open camera {self.camera_index}")
+                self._cleanup_camera()
                 return False
                 
             # Set camera properties
@@ -92,61 +118,125 @@ class FaceDetector:
             self.is_running = True
             
             # Start detection thread
-            self.detection_thread = threading.Thread(target=self._detection_loop)
-            self.detection_thread.daemon = True
-            self.detection_thread.start()
-            
-            self.logger.info("Face detection started successfully")
-            return True
+            try:
+                self.detection_thread = threading.Thread(target=self._detection_loop)
+                self.detection_thread.daemon = True
+                self.detection_thread.start()
+                
+                self.logger.info("Face detection started successfully")
+                return True
+                
+            except Exception as thread_error:
+                self.logger.error(f"Failed to start detection thread: {str(thread_error)}")
+                self.is_running = False
+                self._cleanup_camera()
+                return False
             
         except Exception as e:
             self.logger.error(f"Error starting face detection: {str(e)}")
+            self._cleanup_camera()
             return False
     
-    def stop_detection(self):
-        """Stop face detection"""
+    def _cleanup_camera(self):
+        """Safely cleanup camera resources"""
         try:
+            if self.cap is not None:
+                if self.cap.isOpened():
+                    self.cap.release()
+                self.cap = None
+                self.logger.debug("Camera resources cleaned up")
+        except Exception as e:
+            self.logger.error(f"Error during camera cleanup: {str(e)}")
+            self.cap = None  # Force reset even if release fails
+
+    def stop_detection(self):
+        """Stop face detection with proper resource cleanup"""
+        try:
+            # Signal the detection loop to stop
             self.is_running = False
             
-            if self.detection_thread:
-                self.detection_thread.join(timeout=2)
+            # Wait for detection thread to finish
+            if self.detection_thread and self.detection_thread.is_alive():
+                self.detection_thread.join(timeout=3)  # Increased timeout
+                if self.detection_thread.is_alive():
+                    self.logger.warning("Detection thread did not stop gracefully")
+            
+            # Clean up camera resources
+            self._cleanup_camera()
                 
-            if self.cap:
-                self.cap.release()
-                self.cap = None
-                
+            # Clear detection data
             with self.lock:
                 self.current_frame = None
                 self.detected_faces = []
                 
-            self.logger.info("Face detection stopped")
+            self.detection_thread = None
+            self.logger.info("Face detection stopped successfully")
             return True
             
         except Exception as e:
             self.logger.error(f"Error stopping face detection: {str(e)}")
+            # Force cleanup even if there were errors
+            self.is_running = False
+            self._cleanup_camera()
+            with self.lock:
+                self.current_frame = None
+                self.detected_faces = []
             return False
     
     def _detection_loop(self):
-        """Main detection loop running in background thread"""
-        while self.is_running and self.cap:
-            try:
-                ret, frame = self.cap.read()
-                if not ret:
-                    self.logger.warning("Failed to read frame from camera")
-                    time.sleep(0.1)
+        """Main detection loop running in background thread with proper resource management"""
+        frame_read_failures = 0
+        max_failures = 10  # Allow some failures before giving up
+        
+        try:
+            while self.is_running and self.cap and self.cap.isOpened():
+                try:
+                    ret, frame = self.cap.read()
+                    if not ret:
+                        frame_read_failures += 1
+                        self.logger.warning(f"Failed to read frame from camera (attempt {frame_read_failures})")
+                        
+                        if frame_read_failures >= max_failures:
+                            self.logger.error("Too many frame read failures, stopping detection")
+                            break
+                            
+                        time.sleep(0.1)
+                        continue
+                    
+                    # Reset failure counter on successful read
+                    frame_read_failures = 0
+                    
+                    # Process frame for face detection
+                    self._process_frame(frame)
+                    
+                    # Update current frame safely
+                    with self.lock:
+                        self.current_frame = frame.copy()
+                        
+                    time.sleep(0.033)  # ~30 FPS
+                    
+                except Exception as frame_error:
+                    self.logger.error(f"Error processing frame in detection loop: {str(frame_error)}")
+                    time.sleep(0.1)  # Brief pause before retrying
                     continue
                     
-                # Process frame for face detection
-                self._process_frame(frame)
+        except Exception as loop_error:
+            self.logger.error(f"Critical error in detection loop: {str(loop_error)}")
+        finally:
+            # Ensure cleanup happens even if there are exceptions
+            try:
+                self.logger.info("Detection loop ending, cleaning up resources")
+                self.is_running = False
                 
+                # Clear current frame
                 with self.lock:
-                    self.current_frame = frame.copy()
+                    self.current_frame = None
+                    self.detected_faces = []
                     
-                time.sleep(0.033)  # ~30 FPS
-                
-            except Exception as e:
-                self.logger.error(f"Error in detection loop: {str(e)}")
-                break
+            except Exception as cleanup_error:
+                self.logger.error(f"Error during detection loop cleanup: {str(cleanup_error)}")
+            
+            self.logger.info("Detection loop terminated")
     
     def _process_frame(self, frame):
         """Process frame for face detection and recognition"""
