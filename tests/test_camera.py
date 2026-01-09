@@ -7,9 +7,9 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from simple_camera import SimpleCamera
-from face_recognition.face_detector import FaceDetector
-from face_recognition.face_encoder import FaceEncoder
+from src.core.simple_camera import SimpleCamera
+from src.face_recognition.face_detector import FaceDetector
+from src.face_recognition.face_encoder import FaceEncoder
 import time
 
 def test_camera():

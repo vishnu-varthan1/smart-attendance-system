@@ -91,7 +91,7 @@ class TestSmartAttendanceSystem(unittest.TestCase):
         print("Testing database models...")
         
         try:
-            from database.models import Student, AttendanceRecord, AttendanceSession
+            from src.database.models import Student, AttendanceRecord, AttendanceSession
             from flask import Flask
             from config import Config
             
@@ -117,7 +117,7 @@ class TestSmartAttendanceSystem(unittest.TestCase):
         print("Testing face encoder...")
         
         try:
-            from face_recognition.face_encoder import FaceEncoder
+            from src.face_recognition.face_encoder import FaceEncoder
             
             encoder = FaceEncoder()
             test_image = self.create_test_face_image()
@@ -135,7 +135,7 @@ class TestSmartAttendanceSystem(unittest.TestCase):
         print("Testing utility functions...")
         
         try:
-            from utils.helpers import allowed_file, validate_student_data, format_datetime
+            from src.utils.helpers import allowed_file, validate_student_data, format_datetime
             
             # Test file validation
             self.assertTrue(allowed_file("test.jpg"))
